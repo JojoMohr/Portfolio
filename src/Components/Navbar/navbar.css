@@ -1,0 +1,30 @@
+.navbarWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+
+.navbar {
+    border: solid red 1px;
+    /* width: 100%; */
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar > * {
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 2em;
+    /* height: 30px; */
+}
+
+#nameLogo {
+    border: solid red 1px;
+    /* height: auto; */
+}

@@ -1,0 +1,9 @@
+.projectsWrapper {
+    width: 100%;
+    background-color: pink;
+}
+
+.projectsWrapper > * {
+    height: 500px;
+    border: 2px solid red;
+}
