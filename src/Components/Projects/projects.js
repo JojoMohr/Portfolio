@@ -1,34 +1,21 @@
 import React from "react";
 import "./projects.css";
-import {
-    Animator,
-    ScrollContainer,
-    ScrollPage,
-    batch,
-    Fade,
-    FadeIn,
-    FadeOut,
-    Move,
-    MoveIn,
-    MoveOut,
-    Sticky,
-    StickyIn,
-    StickyOut,
-    Zoom,
-    ZoomIn,
-    ZoomOut,
-} from "react-scroll-motion";
+import Zoom from "react-reveal/Zoom";
+import Slide from "react-reveal/Slide";
 
 export default function Projects() {
     return (
-        <div className="projectsWrapper">
-            <Animator animation={batch(MoveIn(0, -200))}>
+        <>
+            <h1 className="heading">Projects</h1>
+            <div className="projectsWrapper">
                 <div className="sosoPage">SOUND SOUND </div>
-            </Animator>
-            <div className="zone">zone</div>
-            <div className="zone">zone</div>
-            <div className="zone">zone</div>
-            <div className="zone">zone</div>
-        </div>
+                <div className="zone">zone</div>
+                <div className="zone">zone</div>
+                <Slide left>
+                    <div className="zone">SLIDE</div>
+                </Slide>
+                <div className="zone">zone</div>
+            </div>
+        </>
     );
 }

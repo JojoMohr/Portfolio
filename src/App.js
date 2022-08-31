@@ -2,20 +2,16 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar/navbar";
 import Projects from "./Components/Projects/projects";
-import { ScrollContainer, ScrollPage } from "react-scroll-motion";
+import About from "./Components/About/about";
 
 function App() {
     return (
-        <div className="App">
+        <div className="pageWrapper">
             <Navbar></Navbar>
-
-            <ScrollContainer>
-                <div className="mainPage">
-                    <ScrollPage>
-                        <Projects></Projects>
-                    </ScrollPage>
-                </div>
-            </ScrollContainer>
+            <div className="mainPage">
+                <About></About>
+                <Projects></Projects>
+            </div>
         </div>
     );
 }
