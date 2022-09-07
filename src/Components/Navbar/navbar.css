@@ -3,10 +3,11 @@
     justify-content: space-between;
     padding-left: 3%;
     padding-right: 5%;
+    border: solid red 1px;
 }
 
-.navbar {
-    border: solid red 1px;
+.navbarNavigation {
+    border: solid blue 1px;
     /* width: 100%; */
     height: auto;
     padding: 10px;
@@ -16,7 +17,7 @@
     align-items: center;
 }
 
-.navbar > * {
+.navbarNavigation > * {
     border: solid black 1px;
     padding: 10px;
     border-radius: 20px;
@@ -26,5 +27,7 @@
 
 #nameLogo {
     border: solid red 1px;
+    height: auto;
+
     /* height: auto; */
 }

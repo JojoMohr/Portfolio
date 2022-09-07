@@ -2,19 +2,19 @@ import React from "react";
 import "./projects.css";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
+// import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export default function Projects() {
     return (
         <>
             <h1 className="heading">Projects</h1>
             <div className="projectsWrapper">
-                <div className="sosoPage">SOUND SOUND </div>
-                <div className="zone">zone</div>
-                <div className="zone">zone</div>
                 <Slide left>
-                    <div className="zone">SLIDE</div>
+                    <div className="zone">SOUND SOUND</div>
                 </Slide>
-                <div className="zone">zone</div>
+                <Slide right>
+                    <div className="zone">ZONE</div>
+                </Slide>
             </div>
         </>
     );
