@@ -4,6 +4,7 @@
     padding-left: 3%;
     padding-right: 5%;
     border: solid red 1px;
+    width: 100vw;
 }
 
 .navbarNavigation {
@@ -18,10 +19,11 @@
 }
 
 .navbarNavigation > * {
-    border: solid black 1px;
+    border: solid white 1px;
     padding: 10px;
     border-radius: 20px;
     margin-right: 2em;
+
     /* height: 30px; */
 }
 

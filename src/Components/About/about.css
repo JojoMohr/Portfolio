@@ -3,23 +3,29 @@
 }
 
 .aboutWrapper {
+    border: 1px red solid;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     height: 100vh;
+    align-items: center;
 }
 
 .aboutWrapper > * {
-    padding: 50px;
-    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    height: 60%;
+    /* padding: 60px; */
+    border: solid 2px blue;
+    /* margin: 3%; */
 }
 
 .infoText {
     width: 50%;
 }
 
-.picture {
-    width: 50%;
-    height: 400px;
-
+.picture img {
     border: solid 2px blue;
 }

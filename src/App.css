@@ -1,9 +1,12 @@
 * {
     box-sizing: border-box;
-    background-color: #480ca8;
+    background-color: #0d0f33;
     color: white;
+    margin: 0;
+    /* color: #5daf4e; */
 }
 .mainPage {
+    width: 100vw;
 }
 
 .pageWrapper {

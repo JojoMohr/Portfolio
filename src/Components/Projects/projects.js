@@ -9,12 +9,12 @@ export default function Projects() {
         <>
             <h1 className="heading">Projects</h1>
             <div className="projectsWrapper">
-                <Slide left>
-                    <div className="zone">SOUND SOUND</div>
-                </Slide>
-                <Slide right>
-                    <div className="zone">ZONE</div>
-                </Slide>
+                <div data-aos="fade-right" className="zone">
+                    SOUND SOUND
+                </div>
+                <div data-aos="fade-right" className="zone">
+                    ZONE
+                </div>
             </div>
         </>
     );
