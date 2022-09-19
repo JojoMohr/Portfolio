@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
-import Zoom from "react-reveal/Zoom";
-import Slide from "react-reveal/Slide";
+// import Zoom from "react-reveal/Zoom";
+// import Slide from "react-reveal/Slide";
 // import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export default function Projects() {

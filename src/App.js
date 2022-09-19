@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./Components/Navbar/navbar";
-import Projects from "./Components/Projects/projects";
-import About from "./Components/About/about";
+import Navbar from "./Components/Navbar/navbar.tsx";
+import Projects from "./Components/Projects/projects.tsx";
+import About from "./Components/About/about.tsx";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
