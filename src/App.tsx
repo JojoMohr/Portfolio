@@ -1,13 +1,13 @@
 import React from "react";
-
-// import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar/navbar";
 import Projects from "./Components/Projects/projects";
 import About from "./Components/About/about";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css";
+
+
+//========================================
 AOS.init({
     // Global settings:
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

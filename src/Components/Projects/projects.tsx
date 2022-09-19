@@ -6,7 +6,7 @@ import "./projects.css";
 
 export default function Projects() {
     return (
-        <>
+        <div className="pageSection" id="projects">
             <h1 className="heading">Projects</h1>
             <div className="projectsWrapper">
                 <div data-aos="fade-right" className="zone">
@@ -16,6 +16,6 @@ export default function Projects() {
                     ZONE
                 </div>
             </div>
-        </>
+        </div>
     );
 }

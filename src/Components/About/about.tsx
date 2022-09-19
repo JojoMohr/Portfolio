@@ -3,7 +3,7 @@ import "./about.css";
 
 export default function About() {
     return (
-        <>
+        <div className="pageSection" id="about">
             <h1 data-aos="fade-zoom-in" className="heading">
                 About
             </h1>
@@ -25,6 +25,6 @@ export default function About() {
                     ></img>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
