@@ -5,6 +5,7 @@ import Projects from "./Components/Projects/projects";
 import About from "./Components/About/about";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from "./Components/About/Footer/footer";
 
 
 //========================================
@@ -35,6 +36,7 @@ function App() {
             <div className="mainPage">
                 <About></About>
                 <Projects></Projects>
+                <Footer></Footer>
             </div>
         </div>
     );

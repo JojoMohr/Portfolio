@@ -9,11 +9,88 @@ export default function Projects() {
         <div className="pageSection" id="projects">
             <h1 className="heading">Projects</h1>
             <div className="projectsWrapper">
-                <div data-aos="fade-right" className="zone">
-                    SOUND SOUND
+                <div
+                    data-aos="fade-right"
+                    id="soundsound"
+                    className="projectContainer"
+                >
+                    <img src="img/logoWhite.png" alt="projectImg"></img>
+                    <div className="projectInfo">
+                        <h2 className="projectName">SOUND SOUND</h2>
+                        <p className="projectInfo">
+                            Website for an Event Agency and Music Collective.
+                            Fully responsive React Web Applications using
+                            Contentful as CMS for easy content management.
+                        </p>
+                    </div>
                 </div>
-                <div data-aos="fade-right" className="zone">
-                    ZONE
+                <div
+                    data-aos="fade-right"
+                    id="soundsound"
+                    className="projectContainer"
+                >
+                    <img src="img/logoWhite.png" alt="projectImg"></img>
+                    <div className="projectInfo">
+                        <h2 className="projectName">SOUND SOUND</h2>
+                        <p className="projectInfo">
+                            Website for an Event Agency and Music Collective.
+                            Fully responsive React Web Applications using
+                            Contentful as CMS for easy content management.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    data-aos="fade-right"
+                    id="soundsound"
+                    className="projectContainer"
+                >
+                    <img src="img/logoWhite.png" alt="projectImg"></img>
+                    <div className="projectInfo">
+                        <h2 className="projectName">SOUND SOUND</h2>
+                        <p className="projectInfo">
+                            Website for an Event Agency and Music Collective.
+                            Fully responsive React Web Applications using
+                            Contentful as CMS for easy content management.
+                        </p>
+                    </div>
+                </div>{" "}
+                <div
+                    data-aos="fade-right"
+                    id="soundsound"
+                    className="projectContainer"
+                >
+                    <img src="img/logoWhite.png" alt="projectImg"></img>
+                    <div className="projectInfo">
+                        <h2 className="projectName">SOUND SOUND</h2>
+                        <p className="projectInfo">
+                            Website for an Event Agency and Music Collective.
+                            Fully responsive React Web Applications using
+                            Contentful as CMS for easy content management.
+                        </p>
+                    </div>
+                </div>{" "}
+                <div
+                    data-aos="fade-right"
+                    id="soundsound"
+                    className="projectContainer"
+                >
+                    <img src="img/logoWhite.png" alt="projectImg"></img>
+                    <div className="projectInfo">
+                        <h2 className="projectName">SOUND SOUND</h2>
+                        <p className="projectInfo">
+                            Website for an Event Agency and Music Collective.
+                            Fully responsive React Web Applications using
+                            Contentful as CMS for easy content management.
+                        </p>
+                    </div>
+                </div>
+                {/* ======== */}
+                <div
+                    data-aos="fade-right"
+                    id="zone"
+                    className="projectContainer"
+                >
+                    <h2 className="projectName">ZONE</h2>
                 </div>
             </div>
         </div>

@@ -1,23 +1,23 @@
 import React from "react";
 import "./navbar.css";
 
-import * as Scroll from "react-scroll";
+// import * as Scroll from "react-scroll";
 import {
     Link,
-    Button,
-    Element,
-    Events,
+    // Button,
+    // Element,
+    // Events,
     animateScroll as scroll,
-    scrollSpy,
-    scroller,
+    // scrollSpy,
+    // scroller,
 } from "react-scroll";
 
 export default function Navbar() {
     return (
         <>
             <div className="navbarWrapper">
-                <h1 id="nameLogo">Johannes Mohr </h1>
-                <div className="navItems">
+                <img src="img/logoWhite.png" alt="logo"></img>
+                <div className="navbarNavigation">
                     <Link to="about" spy={true} smooth={true}>
                         <div>About</div>
                     </Link>

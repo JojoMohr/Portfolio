@@ -1,8 +1,11 @@
 * {
     box-sizing: border-box;
-    background-color: #0d0f33;
     color: white;
     margin: 0;
+    font-family: "Montserrat", sans-serif;
+
+    background-color: #0d0f33;
+
     /* color: #5daf4e; */
 }
 .mainPage {
@@ -10,4 +13,9 @@
 }
 
 .pageWrapper {
+}
+
+.pageSection {
+    margin-top: 20px;
+    background-color: #0d0f33;
 }
