@@ -210,10 +210,16 @@ export default function Hero() {
         <div className="pageSection" id="hero">
             <div className="infoName" data-aos="fade-left">
                 <h1>Johannes Mohr</h1>
-                <h3>Frontend Developer</h3>
+                <h3>Frontend Development</h3>
+            </div>
+            <div className="planets">
+                <img
+                    id="planetProjects"
+                    src="img/planetProjects.png"
+                    alt="planet1"
+                ></img>
             </div>
             <canvas></canvas>
-            <div className="aboutWrapper"></div>
         </div>
     );
 }

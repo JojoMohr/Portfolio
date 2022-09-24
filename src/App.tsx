@@ -35,9 +35,9 @@ function App() {
             {/* <Navbar></Navbar> */}
             <div className="mainPage">
                 <Hero></Hero>
-                {/* <About></About> */}
+                {/* <About></About>
                 <Projects></Projects>
-                <Footer></Footer>
+                <Footer></Footer> */}
             </div>
         </div>
     );
