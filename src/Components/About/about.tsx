@@ -3,13 +3,13 @@ import "./about.css";
 
 export default function About() {
     return (
-        <>
-            <h1 data-aos="fade-zoom-in" className="heading">
+        <div className="pageSection" id="about">
+            {/* <h1 data-aos="fade-zoom-in" className="heading">
                 About
-            </h1>
+            </h1> */}
             <div className="aboutWrapper">
                 <div data-aos="fade-left">
-                    <h1>Johannes Mohr</h1>
+                    <h1 id="infoName">Johannes Mohr</h1>
                     <h3>Frontend Developer</h3>
                     <p className="infoText">
                         React fan and always enthusiastic about learning new
@@ -25,6 +25,6 @@ export default function About() {
                     ></img>
                 </div>
             </div>
-        </>
+        </div>
     );
 }

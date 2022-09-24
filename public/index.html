@@ -13,11 +13,22 @@
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
             rel="stylesheet"
         />
-
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+            rel="stylesheet"
+        />
+        <!--  -->
         <title>PORTFOLIO</title>
     </head>
     <body>
@@ -25,6 +36,20 @@
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
+        </script>
+        <script src="three.r134.min.js"></script>
+        <script src="vanta.net.min.js"></script>
+        <script>
+            VANTA.NET({
+                el: "#your-element-selector",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.0,
+                minWidth: 200.0,
+                scale: 1.0,
+                scaleMobile: 1.0,
+            });
         </script>
     </body>
 </html>

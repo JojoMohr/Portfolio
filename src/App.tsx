@@ -1,13 +1,14 @@
-import React, { Component } from "react";
-
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar/navbar";
 import Projects from "./Components/Projects/projects";
 import About from "./Components/About/about";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css";
+import Footer from "./Components/About/Footer/footer";
+
+
+//========================================
 AOS.init({
     // Global settings:
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -35,6 +36,7 @@ function App() {
             <div className="mainPage">
                 <About></About>
                 <Projects></Projects>
+                <Footer></Footer>
             </div>
         </div>
     );

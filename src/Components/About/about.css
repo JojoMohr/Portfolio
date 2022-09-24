@@ -3,7 +3,7 @@
 }
 
 .aboutWrapper {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -12,20 +12,23 @@
 
 .aboutWrapper > * {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     width: 40%;
     height: 60%;
-    /* padding: 60px; */
     border: solid 2px blue;
-    /* margin: 3%; */
+    justify-content: center;
+}
+
+#infoName {
+    font-size: 4em;
+    font-family: "VT323", monospace;
 }
 
 .infoText {
     width: 50%;
+    font-size: 1em;
 }
 
 .picture img {
-    border: solid 2px blue;
+    /* border: solid 2px blue; */
 }

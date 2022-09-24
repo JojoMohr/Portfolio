@@ -1,11 +1,36 @@
 .projectsWrapper {
     width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: white solid 1px;
+}
+/* .projectContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+} */
+
+.projectContainer {
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    height: 500px;
     border: red solid 1px;
+    /* background-color: pink; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.projectsWrapper > * {
-    width: 100%;
-    height: 300px;
-    border: red solid 1px;
-    background-color: pink;
+.projectInfo {
+    /* width: 50%; */
+}
+
+.projectContainer img {
+    border: red 1px solid;
+    height: 200px;
 }
