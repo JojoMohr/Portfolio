@@ -18,12 +18,12 @@ export default function About() {
                     </p>
                 </div>
 
-                <div data-aos="fade-right" className="picture">
+                {/* <div data-aos="fade-right" className="picture">
                     <img
                         src="img/profilBild.png"
                         alt="Johannes Mohr Foto"
                     ></img>
-                </div>
+                </div> */}
             </div>
         </div>
     );
