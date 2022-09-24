@@ -1,9 +1,9 @@
-.heading {
-    text-align: center;
+/* .heading {
+ text-align: center;
 }
 
 .aboutWrapper {
-    /* border: 1px red solid; */
+     border: 1px red solid; 
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -19,7 +19,7 @@
     justify-content: center;
 }
 
-#infoName {
+ #infoName {
     font-size: 4em;
     font-family: "VT323", monospace;
 }
@@ -27,8 +27,8 @@
 .infoText {
     width: 50%;
     font-size: 1em;
-}
+} 
 
 .picture img {
-    /* border: solid 2px blue; */
-}
+     border: solid 2px blue
+} */

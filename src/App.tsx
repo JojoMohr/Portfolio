@@ -6,7 +6,7 @@ import About from "./Components/About/about";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./Components/About/Footer/footer";
-
+import Hero from "./Components/About/Hero/hero";
 
 //========================================
 AOS.init({
@@ -32,9 +32,10 @@ AOS.init({
 function App() {
     return (
         <div className="pageWrapper">
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             <div className="mainPage">
-                <About></About>
+                <Hero></Hero>
+                {/* <About></About> */}
                 <Projects></Projects>
                 <Footer></Footer>
             </div>
