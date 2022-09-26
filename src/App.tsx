@@ -5,8 +5,8 @@ import Projects from "./Components/Projects/projects";
 import About from "./Components/About/about";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from "./Components/About/Footer/footer";
-import Hero from "./Components/About/Hero/hero";
+import Footer from "./Components/Footer/footer";
+import Hero from "./Components/Hero/hero";
 
 //========================================
 AOS.init({

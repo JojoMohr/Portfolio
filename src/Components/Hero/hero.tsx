@@ -1,4 +1,3 @@
-import { AnyAaaaRecord } from "dns";
 import React, { useEffect } from "react";
 import "./hero.css";
 
