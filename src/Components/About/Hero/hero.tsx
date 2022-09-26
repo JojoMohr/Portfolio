@@ -214,9 +214,28 @@ export default function Hero() {
             </div>
             <div className="planets">
                 <img
-                    id="planetProjects"
+                    className="planetIcon"
+                    id="projectsPlanet"
                     src="img/planetProjects.png"
-                    alt="planet1"
+                    alt="Projects"
+                ></img>
+                <img
+                    className="planetIcon"
+                    id="aboutPlanet"
+                    src="img/planetProjects.png"
+                    alt="About"
+                ></img>
+                <img
+                    className="planetIcon"
+                    id="resumePlanet"
+                    src="img/planetProjects.png"
+                    alt="Resume"
+                ></img>
+                <img
+                    className="planetIcon"
+                    id="githubPlanet"
+                    src="img/planetProjects.png"
+                    alt="Github Icon"
                 ></img>
             </div>
             <canvas></canvas>

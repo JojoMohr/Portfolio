@@ -41,21 +41,55 @@ a:hover {
     position: absolute;
     z-index: 1;
     background-color: transparent;
-    font-size: 2rem;
-    /* left: 50%;
-    top: 50%; */
+    font-size: 3vmin; /* responsive font size */
 }
 
-#planetProjects {
+/* ********** PLANETS ************/
+
+.planetIcon {
+    width: 60px;
+}
+
+.planetIcon:hover {
+    width: 120px;
+    transition: 1.5s;
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    filter: drop-shadow(0 0 5px #ffffff);
+}
+
+#projectsPlanet {
     position: absolute;
     z-index: 1;
     transition: 1s;
-    width: 70px;
+    /* width: 30px; */
     left: 20%;
     top: 20%;
 }
 
-#planetProjects:hover {
-    width: 120px;
-    transition: 1.5s;
+#aboutPlanet {
+    position: absolute;
+    z-index: 1;
+    transition: 1s;
+    /* width: 30px; */
+    left: 20%;
+    top: 40%;
+}
+
+#resumePlanet {
+    position: absolute;
+    z-index: 1;
+    transition: 1s;
+    /* width: 30px; */
+    left: 70%;
+    top: 40%;
+}
+
+#githubPlanet {
+    position: absolute;
+    z-index: 1;
+    transition: 1s;
+    /* width: 30px; */
+    left: 70%;
+    top: 70%;
 }
