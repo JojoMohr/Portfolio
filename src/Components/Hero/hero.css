@@ -47,49 +47,81 @@ a:hover {
 /* ********** PLANETS ************/
 
 .planetIcon {
-    width: 60px;
+    width: 90px;
 }
 
 .planetIcon:hover {
-    width: 120px;
+    width: 150px;
     transition: 1.5s;
     transform: rotate(-20deg);
-    -webkit-transform: rotate(-20deg);
-    filter: drop-shadow(0 0 5px #ffffff);
+    -webkit-transform: rotate(-5deg);
+    filter: drop-shadow(0 0 3px #ffffff);
 }
 
+/*  SINGLE PLANETS  */
+
 #projectsPlanet {
-    position: absolute;
+    position: relative;
     z-index: 1;
     transition: 1s;
-    /* width: 30px; */
     left: 20%;
     top: 20%;
 }
 
-#aboutPlanet {
-    position: absolute;
-    z-index: 1;
-    transition: 1s;
-    /* width: 30px; */
-    left: 20%;
-    top: 40%;
+.heading {
+    opacity: 0;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+#projectsheading {
+    /* display: none; */
+}
+#projectsPlanet:hover + #projectsHeading {
+    opacity: 1;
 }
 
 #resumePlanet {
     position: absolute;
     z-index: 1;
     transition: 1s;
-    /* width: 30px; */
-    left: 70%;
-    top: 40%;
+    left: 20%;
+    top: 60%;
 }
 
-#githubPlanet {
+#contactPlanet {
+    position: absolute;
+    z-index: 1;
+    transition: 1s;
+    left: 70%;
+    top: 50%;
+}
+
+#techstackPlanet {
+    position: absolute;
+    z-index: 1;
+    transition: 1s;
+    left: 80%;
+    top: 20%;
+}
+
+#githubIcon {
+    position: absolute;
+    z-index: 1;
+    transition: 1s;
+    width: 40px;
+    /* width: 30px; */
+    left: 90%;
+    top: 5%;
+}
+.iconWrapper {
     position: absolute;
     z-index: 1;
     transition: 1s;
     /* width: 30px; */
-    left: 70%;
-    top: 70%;
+    left: 20%;
+    top: 20%;
 }

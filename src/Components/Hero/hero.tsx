@@ -1,7 +1,11 @@
-import React, { useEffect } from "react";
+import { click } from "@testing-library/user-event/dist/click";
+import React, { useEffect, useState } from "react";
+import Projects from "../Projects/projects";
 import "./hero.css";
 
 export default function Hero() {
+    let [showProjects, setProjects] = useState(false);
+
     useEffect(() => {
         const STAR_COLOR = "#fff";
         const STAR_SIZE = 3;
@@ -205,35 +209,59 @@ export default function Hero() {
         console.log("useeffect is working");
     });
 
+    function clickOnProjects(): void {
+        setProjects((showProjects = !showProjects));
+        console.log("CLICKED ON PRJECTS");
+    }
+
     return (
         <div className="pageSection" id="hero">
             <div className="infoName" data-aos="fade-left">
                 <h1>Johannes Mohr</h1>
                 <h3>Frontend Development</h3>
             </div>
+
+            {/* PLANETS
+             */}
+
             <div className="planets">
+                <div className="iconWrapper">
+                    <img
+                        className="planetIcon"
+                        onClick={clickOnProjects}
+                        id="projectsPlanet"
+                        src="img/planetProjects.png"
+                        alt="Projects"
+                    ></img>
+                    <h1 className="heading" id="projectsHeading">
+                        Projects
+                    </h1>
+                </div>
+                {showProjects && (
+                    <Projects clickOnProjects={clickOnProjects}></Projects>
+                )}
                 <img
                     className="planetIcon"
-                    id="projectsPlanet"
-                    src="img/planetProjects.png"
-                    alt="Projects"
-                ></img>
-                <img
-                    className="planetIcon"
-                    id="aboutPlanet"
-                    src="img/planetProjects.png"
+                    id="resumePlanet"
+                    src="img/planetResume.png"
                     alt="About"
                 ></img>
                 <img
                     className="planetIcon"
-                    id="resumePlanet"
-                    src="img/planetProjects.png"
+                    id="contactPlanet"
+                    src="img/planetContact.png"
                     alt="Resume"
                 ></img>
                 <img
                     className="planetIcon"
-                    id="githubPlanet"
-                    src="img/planetProjects.png"
+                    id="techstackPlanet"
+                    src="img/planetTechstack.png"
+                    alt="Github Icon"
+                ></img>{" "}
+                <img
+                    className="planetIcon"
+                    id="githubIcon"
+                    src="img/github.png"
                     alt="Github Icon"
                 ></img>
             </div>
