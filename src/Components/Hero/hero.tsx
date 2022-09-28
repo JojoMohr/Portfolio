@@ -2,6 +2,7 @@ import { click } from "@testing-library/user-event/dist/click";
 import React, { useEffect, useState } from "react";
 import Projects from "../Projects/projects";
 import "./hero.css";
+import "./planets.css";
 
 export default function Hero() {
     let [showProjects, setProjects] = useState(false);
@@ -225,7 +226,8 @@ export default function Hero() {
              */}
 
             <div className="planets">
-                <div className="iconWrapper">
+                {/*  *********************PROJECTS********************/}
+                <div id="projectsPlanetWrapper" className="iconWrapper">
                     <img
                         className="planetIcon"
                         onClick={clickOnProjects}
@@ -233,38 +235,54 @@ export default function Hero() {
                         src="img/planetProjects.png"
                         alt="Projects"
                     ></img>
-                    <h1 className="heading" id="projectsHeading">
-                        Projects
-                    </h1>
+                    <h2 className="heading" id="projectsHeading">
+                        PROJECTS
+                    </h2>
                 </div>
                 {showProjects && (
                     <Projects clickOnProjects={clickOnProjects}></Projects>
                 )}
-                <img
-                    className="planetIcon"
-                    id="resumePlanet"
-                    src="img/planetResume.png"
-                    alt="About"
-                ></img>
+                {/*  *********************RESUME********************/}
+                <div id="resumePlanetWrapper" className="iconWrapper">
+                    <img
+                        className="planetIcon"
+                        id="resumePlanet"
+                        src="img/planetResume.png"
+                        alt="About"
+                    ></img>
+                    <h2 className="heading" id="resumeHeading">
+                        Resume
+                    </h2>
+                </div>
+                {/*  ********************CONTACT*********************/}
                 <img
                     className="planetIcon"
                     id="contactPlanet"
                     src="img/planetContact.png"
                     alt="Resume"
                 ></img>
+                {/*  ********************CONTACT*********************/}
                 <img
                     className="planetIcon"
                     id="techstackPlanet"
                     src="img/planetTechstack.png"
                     alt="Github Icon"
                 ></img>{" "}
+                {/*  ********************ABOUT*********************/}
+                <img
+                    className="planetIcon"
+                    id="mercury"
+                    src="img/mercury.png"
+                    alt="mercury"
+                ></img>
+            </div>
+                {/*  ********************Github*********************/}
                 <img
                     className="planetIcon"
                     id="githubIcon"
                     src="img/github.png"
                     alt="Github Icon"
                 ></img>
-            </div>
             <canvas></canvas>
         </div>
     );
