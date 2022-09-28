@@ -28,7 +28,7 @@
 .planetIcon:hover {
     transition: 1.5s;
     transform: rotate(-20deg);
-    -webkit-transform: rotate(-5deg);
+    -webkit-transform: rotate(5deg);
     filter: drop-shadow(0 0 3px #ffffff);
     cursor: pointer;
     width: 200px;

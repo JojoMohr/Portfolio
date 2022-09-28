@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Morelife Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Morelife Regular"), url("Morelife-JR0LM.woff") format("woff");
+}
+
 #hero {
     display: flex;
     justify-content: center;
@@ -22,15 +29,24 @@ a:hover {
     color: #fff;
 }
 
+h1 {
+    font-family: "Morelife Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Morelife Regular"), url("Morelife-JR0LM.woff") format("woff");
+    font-size: 10vmin; /* responsive font size */
+    text-align: center;
+}
+h3 {
+    font-size: 3.4vmin; /* responsive font size */
+    text-align: center;
+}
 .infoName {
     top: 10%;
-    font-variant: petite-caps;
     position: absolute;
-    font-stretch: semi-condensed;
     z-index: 1;
     background-color: transparent;
-    font-size: 3vmin; /* responsive font size */
-    /* border: solid 1px white; */
+    color: red;
 }
 
 /* Github Icon *****************************************/

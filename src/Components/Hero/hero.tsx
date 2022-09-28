@@ -275,12 +275,12 @@ export default function Hero() {
                     alt="Github Icon"
                 ></img>{" "}
                 {/*  ********************ABOUT*********************/}
-                <img
+                {/* <img
                     className="planetIcon"
                     id="mercury"
                     src="img/mercury.png"
                     alt="mercury"
-                ></img>
+                ></img> */}
             </div>
             {/*  ********************Github*********************/}
             <img
