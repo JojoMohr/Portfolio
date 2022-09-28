@@ -87,14 +87,21 @@
     opacity: 1;
     visibility: visible;
 }
-/*  TechStack Planet *****************************************/
-#techstackPlanet {
+/*  Skills Planet *****************************************/
+#skillsPlanet {
     z-index: 1;
     transition: 1s;
     left: 65%;
     top: 70%;
 }
 
+#skillsPlanet:hover {
+}
+
+#skillsPlanet:hover + #skillsHeading {
+    opacity: 1;
+    visibility: visible;
+}
 /* Mercury */
 
 #mercury {

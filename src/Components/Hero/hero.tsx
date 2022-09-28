@@ -255,6 +255,18 @@ export default function Hero() {
                         RESUME
                     </h2>
                 </div>
+                {/*  ********************SKILLS*********************/}
+                <div id="skillsPlanetWrapper" className="iconWrapper">
+                    <img
+                        className="planetIcon"
+                        id="skillsPlanet"
+                        src="img/planetSkills.png"
+                        alt="Skills Icon"
+                    ></img>
+                    <h2 className="heading" id="skillsHeading">
+                        SKILLS
+                    </h2>
+                </div>
                 {/*  ********************CONTACT*********************/}
                 <div id="contactPlanetWrapper" className="iconWrapper">
                     <img
@@ -267,13 +279,6 @@ export default function Hero() {
                         CONTACT
                     </h2>
                 </div>
-                {/*  ********************CONTACT*********************/}
-                <img
-                    className="planetIcon"
-                    id="techstackPlanet"
-                    src="img/planetTechstack.png"
-                    alt="Github Icon"
-                ></img>{" "}
                 {/*  ********************ABOUT*********************/}
                 {/* <img
                     className="planetIcon"
@@ -283,12 +288,21 @@ export default function Hero() {
                 ></img> */}
             </div>
             {/*  ********************Github*********************/}
-            <img
-                className="planetIcon"
-                id="githubIcon"
-                src="img/github.png"
-                alt="Github Icon"
-            ></img>
+            <div className="socials">
+                <img
+                    className="planetIcon"
+                    id="githubIcon"
+                    src="img/github.png"
+                    alt="Github Icon"
+                ></img>
+
+                <img
+                    className="planetIcon"
+                    id="linkedinIcon"
+                    src="img/linkedin.png"
+                    alt="Linkedin"
+                ></img>
+            </div>
             <canvas></canvas>
         </div>
     );

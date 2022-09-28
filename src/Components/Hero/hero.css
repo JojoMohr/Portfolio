@@ -42,11 +42,10 @@ h3 {
     text-align: center;
 }
 .infoName {
-    top: 10%;
+    top: 15%;
     position: absolute;
     z-index: 1;
     background-color: transparent;
-    color: red;
 }
 
 /* Github Icon *****************************************/
@@ -55,11 +54,19 @@ h3 {
     z-index: 1;
     transition: 1s;
     width: 40px;
-    left: 90%;
+    right: 80px;
+    top: 5%;
+}
+#linkedinIcon {
+    position: absolute;
+    z-index: 1;
+    transition: 1s;
+    width: 40px;
+    right: 40px;
     top: 5%;
 }
 
-#githubIcon:hover {
+#githubIcon:hover #linkedinIcon:hover {
     transform: rotate(-20deg);
     -webkit-transform: rotate(-10deg);
 }
