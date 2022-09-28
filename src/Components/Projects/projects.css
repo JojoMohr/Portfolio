@@ -1,6 +1,6 @@
 .projectsWrapper {
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     left: 50%;
     top: 5%;
     transform: translateX(-50%);
@@ -12,6 +12,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     border: white solid 5px;
+    border-radius: 20px;
     background-color: rgba(240, 248, 255, 0.784);
 }
 /* .projectContainer {

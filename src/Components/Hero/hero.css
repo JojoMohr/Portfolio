@@ -24,13 +24,13 @@ a:hover {
 
 .infoName {
     top: 10%;
-
     font-variant: petite-caps;
     position: absolute;
     font-stretch: semi-condensed;
     z-index: 1;
     background-color: transparent;
     font-size: 3vmin; /* responsive font size */
+    /* border: solid 1px white; */
 }
 
 /* Github Icon *****************************************/

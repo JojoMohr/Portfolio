@@ -222,8 +222,12 @@ export default function Hero() {
                 <h3>Frontend Development</h3>
             </div>
 
-            {/* PLANETS
-             */}
+            {/*********************** POPUP  ***********************/}
+            {showProjects && (
+                <Projects clickOnProjects={clickOnProjects}></Projects>
+            )}
+
+            {/* **********************PLANETS**********************/}
 
             <div className="planets">
                 {/*  *********************PROJECTS********************/}
@@ -239,28 +243,30 @@ export default function Hero() {
                         PROJECTS
                     </h2>
                 </div>
-                {showProjects && (
-                    <Projects clickOnProjects={clickOnProjects}></Projects>
-                )}
                 {/*  *********************RESUME********************/}
                 <div id="resumePlanetWrapper" className="iconWrapper">
                     <img
                         className="planetIcon"
                         id="resumePlanet"
                         src="img/planetResume.png"
-                        alt="About"
+                        alt="Resume"
                     ></img>
                     <h2 className="heading" id="resumeHeading">
-                        Resume
+                        RESUME
                     </h2>
                 </div>
                 {/*  ********************CONTACT*********************/}
-                <img
-                    className="planetIcon"
-                    id="contactPlanet"
-                    src="img/planetContact.png"
-                    alt="Resume"
-                ></img>
+                <div id="contactPlanetWrapper" className="iconWrapper">
+                    <img
+                        className="planetIcon"
+                        id="contactPlanet"
+                        src="img/planetContact.png"
+                        alt="Contact"
+                    ></img>
+                    <h2 className="heading" id="contactHeading">
+                        CONTACT
+                    </h2>
+                </div>
                 {/*  ********************CONTACT*********************/}
                 <img
                     className="planetIcon"
@@ -276,13 +282,13 @@ export default function Hero() {
                     alt="mercury"
                 ></img>
             </div>
-                {/*  ********************Github*********************/}
-                <img
-                    className="planetIcon"
-                    id="githubIcon"
-                    src="img/github.png"
-                    alt="Github Icon"
-                ></img>
+            {/*  ********************Github*********************/}
+            <img
+                className="planetIcon"
+                id="githubIcon"
+                src="img/github.png"
+                alt="Github Icon"
+            ></img>
             <canvas></canvas>
         </div>
     );

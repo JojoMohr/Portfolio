@@ -2,6 +2,7 @@
 
 .planets {
     display: flex;
+    justify-content: center;
     align-items: center;
     position: absolute;
 }
@@ -13,14 +14,14 @@
     transition: 1s;
     /* left: 20%;
     top: 20%; */
-    border: white 1px solid;
+    /* border: white 1px solid; */
     flex-direction: column;
     align-content: center;
     align-items: center;
     justify-content: center;
 }
 .planetIcon {
-    width: 10%;
+    width: 150px;
     /* border: white 1px solid; */
 }
 
@@ -34,8 +35,6 @@
 }
 
 .heading {
-    /* width: fit-content; */
-    /* border: red 1px solid; */
     text-align: center;
     opacity: 0;
     -webkit-transition: all 500ms ease-in-out;
@@ -47,18 +46,12 @@
 
 /* PROJECTS PLANET *****************************************/
 #projectsPlanetWrapper {
-    left: 10%;
-    top: 20%;
-    /* width: auto; */
 }
 #projectsPlanet {
-    position: relative;
     z-index: 1;
     transition: 1s;
-    width: 10%;
 }
 #projectsPlanet:hover {
-    width: 20%;
 }
 
 #projectsPlanet:hover + #projectsHeading {
@@ -66,17 +59,13 @@
     visibility: visible;
 }
 /* RESUME PLANET *****************************************/
+#resumePlanetWrapper {
+}
 #resumePlanet {
-    /* position: absolute; */
     z-index: 1;
     transition: 1s;
-    left: 20%;
-    top: 60%;
-    width: 40%;
-    border: solid red 1px;
 }
 #resumePlanet:hover {
-    /* width: 20%; */
 }
 
 #resumePlanet:hover + #resumeHeading {
@@ -84,31 +73,33 @@
     visibility: visible;
 }
 /* CONTACT PLANET  *****************************************/
+#contactPlanetWrapper {
+}
+
 #contactPlanet {
-    /* position: absolute; */
     z-index: 1;
     transition: 1s;
-    left: 70%;
-    top: 50%;
-    /* width: 90px; */
+}
+#contactPlanet:hover {
+}
+
+#contactPlanet:hover + #contactHeading {
+    opacity: 1;
+    visibility: visible;
 }
 /*  TechStack Planet *****************************************/
 #techstackPlanet {
-    /* position: absolute; */
     z-index: 1;
     transition: 1s;
     left: 65%;
     top: 70%;
-    /* width: 150px; */
 }
 
 /* Mercury */
 
 #mercury {
-    /* position: absolute; */
     z-index: 1;
     transition: 1s;
-    /* width: 40px; */
     left: 10%;
     top: 20%;
 }
