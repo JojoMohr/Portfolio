@@ -5,7 +5,7 @@ import "./hero.css";
 import "./planets.css";
 
 export default function Hero() {
-    let [showProjects, setProjects] = useState(false);
+    let [showProjects, setProjects] = useState(true);
 
     useEffect(() => {
         const STAR_COLOR = "#fff";
