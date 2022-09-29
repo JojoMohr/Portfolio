@@ -290,14 +290,14 @@ export default function Hero() {
             {/*  ********************Github*********************/}
             <div className="socials">
                 <img
-                    className="planetIcon"
+                    className="socialIcon"
                     id="githubIcon"
                     src="img/github.png"
                     alt="Github Icon"
                 ></img>
 
                 <img
-                    className="planetIcon"
+                    className="socialIcon"
                     id="linkedinIcon"
                     src="img/linkedin.png"
                     alt="Linkedin"

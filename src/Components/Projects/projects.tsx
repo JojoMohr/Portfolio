@@ -34,45 +34,67 @@ export default function Projects({ clickOnProjects }) {
             {/* <h1 className="heading">Projects</h1> */}
             <div className="projectsWrapper">
                 <div id="closeProjects" onClick={clickOnProjects}></div>
-                {/* <div className="sliderWrapper"> */}
-                <Carousel className="sliderWrapper" responsive={responsive}>
-                    <div
-                        data-aos="fade-right"
-                        id="soundsound"
-                        className="projectContainer"
-                    >
-                        <div className="projectVideoWrapper">
-                            <img src="img/planetSkills.png" alt="SOSO"></img>
-                        </div>
-                        <div className="projectInfoWrapper">
-                            <div className="projectInfo">
-                                <h2 className="projectName">PROJECT 3</h2>
-                                <p className="projectInfo">
-                                    Lorem ipsum dolor sit amet, consetetur
-                                    sadipscing elitr, sed diam nonumy eirmod
-                                    tempor invidunt ut labore et dolore magna
-                                    aliquyam erat, sed diam voluptua. At vero
-                                    eos et accusam et justo duo dolores et ea
-                                    rebum. Stet clita kasd gubergren, no sea
-                                    takimata sanctus est Lorem ipsum dolor sit
-                                    amet.
-                                </p>
+                <div className="sliderWrapper">
+                    <Carousel className="sliderWrapper" responsive={responsive}>
+                        {/* ===== SOSO ====== */}
+                        <div
+                            data-aos="fade-right"
+                            id="soundsound"
+                            className="projectContainer"
+                        >
+                            <div className="projectVideoWrapper">
+                                <img
+                                    src="img/planetSkills.png"
+                                    alt="SOSO"
+                                ></img>
+                            </div>
+                            <div className="projectInfoWrapper">
+                                <div className="projectInfo">
+                                    <h2 className="projectName">PROJECT 1</h2>
+                                    <p className="projectInfo">
+                                        Lorem ipsum dolor sit amet, consetetur
+                                        sadipscing elitr, sed diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore
+                                        magna aliquyam erat, sed diam voluptua.
+                                        At vero eos et accusam et justo duo
+                                        dolores et ea rebum. Stet clita kasd
+                                        gubergren, no sea takimata sanctus est
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    {/* ===== ZOME ====== */}
-                    {/* <div
-                        data-aos="fade-right"
-                        id="zone"
-                        className="projectContainer"
-                    >
-                        <img src="img/planetContact.png" alt="projectImg"></img>
+                        {/* ===== ZOME ====== */}
+                        <div
+                            data-aos="fade-right"
+                            id="soundsound"
+                            className="projectContainer"
+                        >
+                            <div className="projectVideoWrapper">
+                                <img
+                                    src="img/planetContact.png"
+                                    alt="ZONE"
+                                ></img>
+                            </div>
+                            <div className="projectInfoWrapper">
+                                <div className="projectInfo">
+                                    <h2 className="projectName">PROJECT 2</h2>
+                                    <p className="projectInfo">
+                                        Lorem ipsum dolor sit amet, consetetur
+                                        sadipscing elitr, sed diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore
+                                        magna aliquyam erat, sed diam voluptua.
+                                        At vero eos et accusam et justo duo
+                                        dolores et ea rebum. Stet clita kasd
+                                        gubergren, no sea takimata sanctus est
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* ===== PROJECT 3 ====== */}
 
-                        {/* <h2 className="projectName">PROJECT 2</h2> */}
-                    {/* </div>  */}
-                    {/* ===== PROJECT 3 ====== */}
-
-                    {/* <div
+                        {/* <div
                         data-aos="fade-right"
                         id="zone"
                         className="projectContainer"
@@ -81,8 +103,8 @@ export default function Projects({ clickOnProjects }) {
 
                         {/* <h2 className="projectName">PROJECT 3</h2> 
                     </div> */}
-                </Carousel>
-                ;{/* </div> */}
+                    </Carousel>
+                </div>
             </div>
         </div>
     );
