@@ -23,11 +23,13 @@
 }
 .planetIcon {
     width: 150px;
+    margin-left: 18px;
+    margin-right: 18px;
     /* border: white 1px solid; */
 }
 
 .planetIcon:hover {
-    transition: 1.5s;
+    transition: 0.5s;
     transform: rotate(-20deg);
     -webkit-transform: rotate(5deg);
     filter: drop-shadow(0 0 3px #ffffff);
@@ -50,7 +52,7 @@
 }
 #projectsPlanet {
     z-index: 1;
-    transition: 1s;
+    transition: 0.5s;
 }
 #projectsPlanet:hover {
 }
@@ -64,7 +66,7 @@
 }
 #resumePlanet {
     z-index: 1;
-    transition: 1s;
+    transition: 0.5s;
 }
 #resumePlanet:hover {
 }
@@ -79,7 +81,7 @@
 
 #contactPlanet {
     z-index: 1;
-    transition: 1s;
+    transition: 0.5s;
 }
 #contactPlanet:hover {
 }
@@ -91,7 +93,7 @@
 /*  Skills Planet *****************************************/
 #skillsPlanet {
     z-index: 1;
-    transition: 1s;
+    transition: 0.5s;
     left: 65%;
     top: 70%;
 }
@@ -107,7 +109,7 @@
 
 #mercury {
     z-index: 1;
-    transition: 1s;
+    transition: 0.5s;
     left: 10%;
     top: 20%;
 }

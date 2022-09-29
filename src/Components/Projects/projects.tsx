@@ -43,10 +43,7 @@ export default function Projects({ clickOnProjects }) {
                             className="projectContainer"
                         >
                             <div className="projectVideoWrapper">
-                                <img
-                                    src="img/planetSkills.png"
-                                    alt="SOSO"
-                                ></img>
+                                <img src="img/gifs/soso.gif" alt="SOSO"></img>
                             </div>
                             <div className="projectInfoWrapper">
                                 <div className="projectInfo">
@@ -71,10 +68,7 @@ export default function Projects({ clickOnProjects }) {
                             className="projectContainer"
                         >
                             <div className="projectVideoWrapper">
-                                <img
-                                    src="img/planetContact.png"
-                                    alt="ZONE"
-                                ></img>
+                                <img src="img/gifs/zone.gif" alt="ZONE"></img>
                             </div>
                             <div className="projectInfoWrapper">
                                 <div className="projectInfo">
