@@ -59,6 +59,24 @@ export default function Projects({ clickOnProjects }) {
                                         Lorem ipsum dolor sit amet.
                                     </p>
                                 </div>
+                                <div className="techStack">
+                                    {/* <h3>TECH STACK</h3> */}
+                                    <img
+                                        src="img/techStack/contentful.svg"
+                                        alt="Contentful"
+                                        title="Contentful"
+                                    />
+                                    <img
+                                        src="img/techStack/react.svg"
+                                        alt="ReactJS"
+                                        title="ReactJS"
+                                    />
+                                    <img
+                                        src="img/techStack/netlify.svg"
+                                        alt="Netlify"
+                                        title="Netlify"
+                                    />
+                                </div>
                             </div>
                         </div>
                         {/* ===== ZOME ====== */}
@@ -88,15 +106,33 @@ export default function Projects({ clickOnProjects }) {
                         </div>
                         {/* ===== PROJECT 3 ====== */}
 
-                        {/* <div
-                        data-aos="fade-right"
-                        id="zone"
-                        className="projectContainer"
-                    >
-                        <img src="img/planetResume.png" alt="projectImg"></img>
-
-                        {/* <h2 className="projectName">PROJECT 3</h2> 
-                    </div> */}
+                        <div
+                            data-aos="fade-right"
+                            id="connect4"
+                            className="projectContainer"
+                        >
+                            <div className="projectVideoWrapper">
+                                <img
+                                    src="img/gifs/connect4.gif"
+                                    alt="ZONE"
+                                ></img>
+                            </div>
+                            <div className="projectInfoWrapper">
+                                <div className="projectInfo">
+                                    <h2 className="projectName">CONNECT 4</h2>
+                                    <p className="projectInfo">
+                                        Lorem ipsum dolor sit amet, consetetur
+                                        sadipscing elitr, sed diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore
+                                        magna aliquyam erat, sed diam voluptua.
+                                        At vero eos et accusam et justo duo
+                                        dolores et ea rebum. Stet clita kasd
+                                        gubergren, no sea takimata sanctus est
+                                        Lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </Carousel>
                 </div>
             </div>
