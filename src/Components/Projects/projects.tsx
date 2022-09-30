@@ -47,8 +47,10 @@ export default function Projects({ clickOnProjects }) {
                             </div>
                             <div className="projectInfoWrapper">
                                 <div className="projectInfo">
-                                    <h2 className="projectName">PROJECT 1</h2>
-                                    <p className="projectInfo">
+                                    <h2 className="projectName">
+                                        SOUNDSOUND.NET
+                                    </h2>
+                                    <p>
                                         Lorem ipsum dolor sit amet, consetetur
                                         sadipscing elitr, sed diam nonumy eirmod
                                         tempor invidunt ut labore et dolore
@@ -90,8 +92,8 @@ export default function Projects({ clickOnProjects }) {
                             </div>
                             <div className="projectInfoWrapper">
                                 <div className="projectInfo">
-                                    <h2 className="projectName">PROJECT 2</h2>
-                                    <p className="projectInfo">
+                                    <h2 className="projectName">ZONE</h2>
+                                    <p>
                                         Lorem ipsum dolor sit amet, consetetur
                                         sadipscing elitr, sed diam nonumy eirmod
                                         tempor invidunt ut labore et dolore
@@ -101,6 +103,24 @@ export default function Projects({ clickOnProjects }) {
                                         gubergren, no sea takimata sanctus est
                                         Lorem ipsum dolor sit amet.
                                     </p>
+                                </div>
+                                <div className="techStack">
+                                    {/* <h3>TECH STACK</h3> */}
+                                    <img
+                                        src="img/techStack/contentful.svg"
+                                        alt="Contentful"
+                                        title="Contentful"
+                                    />
+                                    <img
+                                        src="img/techStack/react.svg"
+                                        alt="ReactJS"
+                                        title="ReactJS"
+                                    />
+                                    <img
+                                        src="img/techStack/netlify.svg"
+                                        alt="Netlify"
+                                        title="Netlify"
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -120,7 +140,7 @@ export default function Projects({ clickOnProjects }) {
                             <div className="projectInfoWrapper">
                                 <div className="projectInfo">
                                     <h2 className="projectName">CONNECT 4</h2>
-                                    <p className="projectInfo">
+                                    <p>
                                         Lorem ipsum dolor sit amet, consetetur
                                         sadipscing elitr, sed diam nonumy eirmod
                                         tempor invidunt ut labore et dolore
