@@ -42,52 +42,58 @@ export default function Projects({ clickOnProjects }) {
                             id="soundsound"
                             className="projectContainer"
                         >
-                            <div className="projectVideoWrapper">
-                                <img src="img/gifs/soso.gif" alt="SOSO"></img>
-                            </div>
-                            <div className="projectInfoWrapper">
-                                <div className="projectInfo">
-                                    <h2 className="projectName">
-                                        SOUNDSOUND.NET
-                                    </h2>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consetetur
-                                        sadipscing elitr, sed diam nonumy eirmod
-                                        tempor invidunt ut labore et dolore
-                                        magna aliquyam erat, sed diam voluptua.
-                                        At vero eos et accusam et justo duo
-                                        dolores et ea rebum. Stet clita kasd
-                                        gubergren, no sea takimata sanctus est
-                                        Lorem ipsum dolor sit amet.
-                                    </p>
+                            <div className="assetsWrapper">
+                                <div className="projectVideoWrapper">
+                                    <img
+                                        src="img/gifs/soso.gif"
+                                        alt="SOSO"
+                                    ></img>
                                 </div>
-                                <div className="techStack">
-                                    {/* <h3>TECH STACK</h3> */}
-                                    <img
-                                        src="img/techStack/contentful.svg"
-                                        alt="Contentful"
-                                        title="Contentful"
-                                    />
-                                    <img
-                                        src="img/techStack/react.svg"
-                                        alt="ReactJS"
-                                        title="ReactJS"
-                                    />
-                                    <img
-                                        src="img/techStack/netlify.svg"
-                                        alt="Netlify"
-                                        title="Netlify"
-                                    />
+                                <div className="projectInfoWrapper">
+                                    <div className="projectInfo">
+                                        <h2 className="projectName">
+                                            SOUNDSOUND.NET
+                                        </h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet,
+                                            consetetur sadipscing elitr, sed
+                                            diam nonumy eirmod tempor invidunt
+                                            ut labore et dolore magna aliquyam
+                                            erat, sed diam voluptua. At vero eos
+                                            et accusam et justo duo dolores et
+                                            ea rebum. Stet clita kasd gubergren,
+                                            no sea takimata sanctus est Lorem
+                                            ipsum dolor sit amet.
+                                        </p>
+                                    </div>
+                                    <div className="techStack">
+                                        {/* <h3>TECH STACK</h3> */}
+                                        <img
+                                            src="img/techStack/contentful.svg"
+                                            alt="Contentful"
+                                            title="Contentful"
+                                        />
+                                        <img
+                                            src="img/techStack/react.svg"
+                                            alt="ReactJS"
+                                            title="ReactJS"
+                                        />
+                                        <img
+                                            src="img/techStack/netlify.svg"
+                                            alt="Netlify"
+                                            title="Netlify"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         {/* ===== ZOME ====== */}
                         <div
                             data-aos="fade-right"
-                            id="soundsound"
+                            id="zoneWrapper"
                             className="projectContainer"
                         >
-                            <div className="projectVideoWrapper">
+                            <div id="zoneImg" className="projectVideoWrapper">
                                 <img src="img/gifs/zone.gif" alt="ZONE"></img>
                             </div>
                             <div className="projectInfoWrapper">
