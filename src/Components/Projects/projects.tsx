@@ -157,6 +157,24 @@ export default function Projects({ clickOnProjects }) {
                                         Lorem ipsum dolor sit amet.
                                     </p>
                                 </div>
+                                <div className="techStack">
+                                    {/* <h3>TECH STACK</h3> */}
+                                    <img
+                                        src="img/techStack/contentful.svg"
+                                        alt="Contentful"
+                                        title="Contentful"
+                                    />
+                                    <img
+                                        src="img/techStack/react.svg"
+                                        alt="ReactJS"
+                                        title="ReactJS"
+                                    />
+                                    <img
+                                        src="img/techStack/netlify.svg"
+                                        alt="Netlify"
+                                        title="Netlify"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </Carousel>
