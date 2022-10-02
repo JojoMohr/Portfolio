@@ -214,6 +214,9 @@ export default function Hero() {
         setProjects((showProjects = !showProjects));
         console.log("CLICKED ON PRJECTS");
     }
+    function closePopup(): void {
+        setProjects(false);
+    }
 
     return (
         <div className="pageSection" id="hero">
@@ -303,7 +306,7 @@ export default function Hero() {
                     alt="Linkedin"
                 ></img>
             </div>
-            <canvas></canvas>
+            <canvas onClick={closePopup}></canvas>
         </div>
     );
 }

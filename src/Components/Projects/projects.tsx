@@ -8,6 +8,24 @@ import "react-slidy/lib/styles.css";
 
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
+import ContentfulIcon from "../TechStackIcons/contentfulIcon";
+import ReactJs from "../TechStackIcons/reactIcon";
+import Netlify from "../TechStackIcons/netlifyIcon";
+import ReactIcon from "../TechStackIcons/reactIcon";
+import NetlifyIcon from "../TechStackIcons/netlifyIcon";
+import GitIcon from "../TechStackIcons/gitIcon";
+import DockerIcon from "../TechStackIcons/dockerIcon";
+import CssIcon from "../TechStackIcons/cssIcon";
+import HandlebarsIcon from "../TechStackIcons/handlebarsIcon";
+import JqueryIcon from "../TechStackIcons/jqueryIcon";
+import HtmlIcon from "../TechStackIcons/htmlIcon";
+import NodejsIcon from "../TechStackIcons/nodejsIcon";
+import PostgresIcon from "../TechStackIcons/postgressqlIcon";
+import ReduxIcon from "../TechStackIcons/reduxIcon";
+import SocketioIcon from "../TechStackIcons/socketioIcon";
+import TypescriptIcon from "../TechStackIcons/typescriptIcon";
+import VueIcon from "../TechStackIcons/vueIcon";
+import JavaScriptIcon from "../TechStackIcons/javascriptIcon";
 
 export default function Projects({ clickOnProjects }) {
     const responsive = {
@@ -33,7 +51,14 @@ export default function Projects({ clickOnProjects }) {
         <div className="pageSection" id="projects">
             {/* <h1 className="heading">Projects</h1> */}
             <div className="projectsWrapper">
-                <div id="closeProjects" onClick={clickOnProjects}></div>
+                {/* <div id="closeProjects" onClick={clickOnProjects}> */}
+                <img
+                    onClick={clickOnProjects}
+                    id="closeProjects"
+                    src="img/closeIcon.png"
+                    alt=""
+                />
+                {/* </div> */}
                 <div className="sliderWrapper">
                     <Carousel className="sliderWrapper" responsive={responsive}>
                         {/* ===== SOSO ====== */}
@@ -59,30 +84,19 @@ export default function Projects({ clickOnProjects }) {
                                             consetetur sadipscing elitr, sed
                                             diam nonumy eirmod tempor invidunt
                                             ut labore et dolore magna aliquyam
-                                            erat, sed diam voluptua. At vero eos
-                                            et accusam et justo duo dolores et
-                                            ea rebum. Stet clita kasd gubergren,
-                                            no sea takimata sanctus est Lorem
-                                            ipsum dolor sit amet.
+                                            erat, sed diam voluptua.
                                         </p>
                                     </div>
                                     <div className="techStack">
                                         {/* <h3>TECH STACK</h3> */}
-                                        <img
-                                            src="img/techStack/contentful.svg"
-                                            alt="Contentful"
-                                            title="Contentful"
-                                        />
-                                        <img
-                                            src="img/techStack/react.svg"
-                                            alt="ReactJS"
-                                            title="ReactJS"
-                                        />
-                                        <img
-                                            src="img/techStack/netlify.svg"
-                                            alt="Netlify"
-                                            title="Netlify"
-                                        />
+                                        <ReactIcon></ReactIcon>
+                                        <GitIcon></GitIcon>
+                                        <NodejsIcon></NodejsIcon>
+                                        <JavaScriptIcon></JavaScriptIcon>
+                                        <HtmlIcon></HtmlIcon>
+                                        <CssIcon></CssIcon>
+                                        <ContentfulIcon></ContentfulIcon>
+                                        <NetlifyIcon></NetlifyIcon>
                                     </div>
                                 </div>
                             </div>
@@ -104,34 +118,49 @@ export default function Projects({ clickOnProjects }) {
                                         sadipscing elitr, sed diam nonumy eirmod
                                         tempor invidunt ut labore et dolore
                                         magna aliquyam erat, sed diam voluptua.
-                                        At vero eos et accusam et justo duo
-                                        dolores et ea rebum. Stet clita kasd
-                                        gubergren, no sea takimata sanctus est
-                                        Lorem ipsum dolor sit amet.
                                     </p>
                                 </div>
                                 <div className="techStack">
                                     {/* <h3>TECH STACK</h3> */}
-                                    <img
-                                        src="img/techStack/contentful.svg"
-                                        alt="Contentful"
-                                        title="Contentful"
-                                    />
-                                    <img
-                                        src="img/techStack/react.svg"
-                                        alt="ReactJS"
-                                        title="ReactJS"
-                                    />
-                                    <img
-                                        src="img/techStack/netlify.svg"
-                                        alt="Netlify"
-                                        title="Netlify"
-                                    />
+                                    <JavaScriptIcon></JavaScriptIcon>
+                                    <HtmlIcon></HtmlIcon>
+                                    <CssIcon></CssIcon>
                                 </div>
                             </div>
                         </div>
-                        {/* ===== PROJECT 3 ====== */}
-
+                        {/* ===== IMAGEBOARD ====== */}
+                        <div
+                            data-aos="fade-right"
+                            id="imageBoard"
+                            className="projectContainer"
+                        >
+                            <div className="projectVideoWrapper">
+                                <img
+                                    src="img/gifs/imageboard.gif"
+                                    alt="ImageBoard"
+                                ></img>
+                            </div>
+                            <div className="projectInfoWrapper">
+                                <div className="projectInfo">
+                                    <h2 className="projectName">Image Board</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consetetur
+                                        sadipscing elitr, sed diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore
+                                        magna aliquyam erat, sed diam voluptua.
+                                    </p>
+                                </div>
+                                <div className="techStack">
+                                    <VueIcon></VueIcon>
+                                    <NodejsIcon></NodejsIcon>
+                                    <PostgresIcon></PostgresIcon>
+                                    <JavaScriptIcon></JavaScriptIcon>
+                                    <HtmlIcon></HtmlIcon>
+                                    <CssIcon></CssIcon>
+                                </div>
+                            </div>
+                        </div>
+                        {/* ===== CONNECT 4====== */}
                         <div
                             data-aos="fade-right"
                             id="connect4"
@@ -151,29 +180,13 @@ export default function Projects({ clickOnProjects }) {
                                         sadipscing elitr, sed diam nonumy eirmod
                                         tempor invidunt ut labore et dolore
                                         magna aliquyam erat, sed diam voluptua.
-                                        At vero eos et accusam et justo duo
-                                        dolores et ea rebum. Stet clita kasd
-                                        gubergren, no sea takimata sanctus est
-                                        Lorem ipsum dolor sit amet.
                                     </p>
                                 </div>
                                 <div className="techStack">
                                     {/* <h3>TECH STACK</h3> */}
-                                    <img
-                                        src="img/techStack/contentful.svg"
-                                        alt="Contentful"
-                                        title="Contentful"
-                                    />
-                                    <img
-                                        src="img/techStack/react.svg"
-                                        alt="ReactJS"
-                                        title="ReactJS"
-                                    />
-                                    <img
-                                        src="img/techStack/netlify.svg"
-                                        alt="Netlify"
-                                        title="Netlify"
-                                    />
+                                    <JavaScriptIcon></JavaScriptIcon>
+                                    <HtmlIcon></HtmlIcon>
+                                    <CssIcon></CssIcon>
                                 </div>
                             </div>
                         </div>
