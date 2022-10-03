@@ -5,7 +5,7 @@ import "./hero.css";
 import "./planets.css";
 
 export default function Hero() {
-    let [showProjects, setProjects] = useState(true);
+    let [showProjects, setProjects] = useState(false);
 
     useEffect(() => {
         const STAR_COLOR = "#fff";
@@ -227,7 +227,10 @@ export default function Hero() {
 
             {/*********************** POPUP  ***********************/}
             {showProjects && (
-                <Projects clickOnProjects={clickOnProjects}></Projects>
+                <Projects
+                    closePopup={closePopup}
+                    clickOnProjects={clickOnProjects}
+                ></Projects>
             )}
 
             {/* **********************PLANETS**********************/}

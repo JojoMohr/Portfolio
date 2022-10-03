@@ -27,7 +27,7 @@ import TypescriptIcon from "../TechStackIcons/typescriptIcon";
 import VueIcon from "../TechStackIcons/vueIcon";
 import JavaScriptIcon from "../TechStackIcons/javascriptIcon";
 
-export default function Projects({ clickOnProjects }) {
+export default function Projects({ closePopup, clickOnProjects }) {
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.
@@ -53,10 +53,10 @@ export default function Projects({ clickOnProjects }) {
             <div className="projectsWrapper">
                 {/* <div id="closeProjects" onClick={clickOnProjects}> */}
                 <img
-                    onClick={clickOnProjects}
+                    onClick={closePopup}
                     id="closeProjects"
                     src="img/closeIcon.png"
-                    alt=""
+                    alt="Close"
                 />
                 {/* </div> */}
                 <div className="sliderWrapper">
@@ -67,6 +67,16 @@ export default function Projects({ clickOnProjects }) {
                             id="soundsound"
                             className="projectContainer"
                         >
+                            <div className="githubProjectWrapper">
+                                <a
+                                    href="https://www.google.com"
+                                    target={"_blank"}
+                                    rel="noreferrer"
+                                >
+                                    <img src="img/github.png" alt="github" />
+                                </a>
+                            </div>
+
                             <div className="assetsWrapper">
                                 <div className="projectVideoWrapper">
                                     <img
@@ -108,7 +118,10 @@ export default function Projects({ clickOnProjects }) {
                             className="projectContainer"
                         >
                             <div id="zoneImg" className="projectVideoWrapper">
-                                <img src="img/gifs/zone.gif" alt="ZONE"></img>
+                                <img
+                                    src="https://user-images.githubusercontent.com/99038739/193660049-ac2554dd-303f-42ce-b92d-432c3102e104.gif"
+                                    alt="ZONE"
+                                ></img>
                             </div>
                             <div className="projectInfoWrapper">
                                 <div className="projectInfo">
@@ -136,7 +149,7 @@ export default function Projects({ clickOnProjects }) {
                         >
                             <div className="projectVideoWrapper">
                                 <img
-                                    src="img/gifs/imageboard.gif"
+                                    src="img//gifs/imageboard.gif"
                                     alt="ImageBoard"
                                 ></img>
                             </div>
@@ -154,6 +167,42 @@ export default function Projects({ clickOnProjects }) {
                                     <VueIcon></VueIcon>
                                     <NodejsIcon></NodejsIcon>
                                     <PostgresIcon></PostgresIcon>
+                                    <JavaScriptIcon></JavaScriptIcon>
+                                    <HtmlIcon></HtmlIcon>
+                                    <CssIcon></CssIcon>
+                                </div>
+                            </div>
+                        </div>
+                        {/* ===== SOCIAL NETWORK ====== */}
+                        <div
+                            data-aos="fade-right"
+                            id="imageBoard"
+                            className="projectContainer"
+                        >
+                            <div className="projectVideoWrapper">
+                                <img
+                                    src="https://user-images.githubusercontent.com/99038739/182629806-87f5437a-597c-4599-9adf-059807d76803.gif"
+                                    alt="SocialNetwork"
+                                ></img>
+                            </div>
+                            <div className="projectInfoWrapper">
+                                <div className="projectInfo">
+                                    <h2 className="projectName">
+                                        Social Network
+                                    </h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consetetur
+                                        sadipscing elitr, sed diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore
+                                        magna aliquyam erat, sed diam voluptua.
+                                    </p>
+                                </div>
+                                <div className="techStack">
+                                    <ReactIcon></ReactIcon>
+                                    <ReduxIcon></ReduxIcon>
+                                    <NodejsIcon></NodejsIcon>
+                                    <PostgresIcon></PostgresIcon>
+                                    <SocketioIcon></SocketioIcon>
                                     <JavaScriptIcon></JavaScriptIcon>
                                     <HtmlIcon></HtmlIcon>
                                     <CssIcon></CssIcon>
