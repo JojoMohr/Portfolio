@@ -2,16 +2,18 @@
     position: absolute;
     z-index: 35px;
     width: 35px;
-    /* border-radius: 50%; */
-    top: 15px;
+    top: 12px;
     right: 15px;
-    /* background-color: white; */
-    /* border: #ffffff solid 1px; */
     cursor: pointer;
     z-index: 5;
+    /* border: solid white 1px; */
+
+    /* background-color: white; */
+    /* border: #ffffff solid 1px; */
+    /* border-radius: 50%; */
 }
 #closeProjects:hover {
-    filter: drop-shadow(0 0 3px #ffffff);
+    filter: drop-shadow(0 0 2px #ffffff);
 }
 
 .githubProjectWrapper {
@@ -22,26 +24,24 @@
     z-index: 5;
     top: 15px;
     right: 55px;
-    height: 37px;
-    width: 37px;
-    /* border: #ffffff 1px solid; */
+    height: 35px;
+    width: 35px;
     cursor: pointer;
-    /* border-radius: 50%; */
 }
 .githubProjectWrapper img {
     position: relative;
     top: 15px;
     left: 15px;
-    height: 37px;
-    width: 37px;
-    /* border: #ffffff 1px solid; */
+    height: 35px;
+    width: 35px;
+    padding: 2px;
+    /* border: solid white 1px; */
 }
 
-#githubProjectWrapper:hover {
-    filter: drop-shadow(0 0 3px #ffffff);
+.githubProjectWrapper:hover {
+    filter: drop-shadow(0 0 2px #ffffff);
 }
 .githubProjectWrapper a {
-    /* position: absolute; */
 }
 
 /* ========================================== */
@@ -140,4 +140,7 @@
 .techStack img {
     margin-bottom: 10px;
     max-width: 25px;
+}
+.techStack img:hover {
+    filter: drop-shadow(0 0 3px #ffffff);
 }
