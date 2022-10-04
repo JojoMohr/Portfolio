@@ -65,15 +65,16 @@ export default function Projects({ closePopup, clickOnProjects }) {
                             id="soundsound"
                             className="projectContainer"
                         >
-                            <div className="githubProjectWrapper">
-                                <a
-                                    href="https://github.com/JojoMohr/soundsound"
-                                    target={"_blank"}
-                                    rel="noreferrer"
-                                >
-                                    <img src="img/github.png" alt="github" />
-                                </a>
-                            </div>
+                            {/* <div className="githubProjectWrapper"> */}
+                            <a
+                                href="https://github.com/JojoMohr/soundsound"
+                                target={"_blank"}
+                                rel="noreferrer"
+                                className="githubProjectWrapper"
+                            >
+                                <img src="img/github.png" alt="github" />
+                            </a>
+                            {/* </div> */}
 
                             <div className="assetsWrapper">
                                 <div className="projectVideoWrapper">
@@ -115,15 +116,14 @@ export default function Projects({ closePopup, clickOnProjects }) {
                             id="zoneWrapper"
                             className="projectContainer"
                         >
-                            <div className="githubProjectWrapper">
-                                <a
-                                    href="https://github.com/JojoMohr/zone"
-                                    target={"_blank"}
-                                    rel="noreferrer"
-                                >
-                                    <img src="img/github.png" alt="github" />
-                                </a>
-                            </div>
+                            <a
+                                href="https://github.com/JojoMohr/zone"
+                                target={"_blank"}
+                                rel="noreferrer"
+                                className="githubProjectWrapper"
+                            >
+                                <img src="img/github.png" alt="github" />
+                            </a>
                             <div id="zoneImg" className="projectVideoWrapper">
                                 <img
                                     src="https://user-images.githubusercontent.com/99038739/193660049-ac2554dd-303f-42ce-b92d-432c3102e104.gif"
@@ -154,15 +154,14 @@ export default function Projects({ closePopup, clickOnProjects }) {
                             id="imageBoard"
                             className="projectContainer"
                         >
-                            <div className="githubProjectWrapper">
-                                <a
-                                    href="https://github.com/JojoMohr/imageboard"
-                                    target={"_blank"}
-                                    rel="noreferrer"
-                                >
-                                    <img src="img/github.png" alt="github" />
-                                </a>
-                            </div>
+                            <a
+                                href="https://github.com/JojoMohr/imageboard"
+                                target={"_blank"}
+                                rel="noreferrer"
+                                className="githubProjectWrapper"
+                            >
+                                <img src="img/github.png" alt="github" />
+                            </a>
                             <div className="projectVideoWrapper">
                                 <img
                                     src="img//gifs/imageboard.gif"
@@ -195,15 +194,14 @@ export default function Projects({ closePopup, clickOnProjects }) {
                             id="imageBoard"
                             className="projectContainer"
                         >
-                            <div className="githubProjectWrapper">
-                                <a
-                                    href="https://github.com/JojoMohr/Social-Network"
-                                    target={"_blank"}
-                                    rel="noreferrer"
-                                >
-                                    <img src="img/github.png" alt="github" />
-                                </a>
-                            </div>
+                            <a
+                                href="https://github.com/JojoMohr/Social-Network"
+                                target={"_blank"}
+                                rel="noreferrer"
+                                className="githubProjectWrapper"
+                            >
+                                <img src="img/github.png" alt="github" />
+                            </a>
                             <div className="projectVideoWrapper">
                                 <img
                                     src="https://user-images.githubusercontent.com/99038739/182629806-87f5437a-597c-4599-9adf-059807d76803.gif"
@@ -240,15 +238,14 @@ export default function Projects({ closePopup, clickOnProjects }) {
                             id="connect4"
                             className="projectContainer"
                         >
-                            <div className="githubProjectWrapper">
-                                <a
-                                    href="https://github.com/JojoMohr/practice/tree/jojom/portfolio/projects/connect4"
-                                    target={"_blank"}
-                                    rel="noreferrer"
-                                >
-                                    <img src="img/github.png" alt="github" />
-                                </a>
-                            </div>
+                            <a
+                                href="https://github.com/JojoMohr/practice/tree/jojom/portfolio/projects/connect4"
+                                target={"_blank"}
+                                rel="noreferrer"
+                                className="githubProjectWrapper"
+                            >
+                                <img src="img/github.png" alt="github" />
+                            </a>
                             <div className="projectVideoWrapper">
                                 <img
                                     src="img/gifs/connect4.gif"
