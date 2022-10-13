@@ -7,7 +7,9 @@ import "./planets.css";
 
 export default function Hero() {
     let [showProjects, setProjects] = useState(false);
+    let [showSkills, setSkills] = useState(false);
 
+    // STARS =============================================================
     useEffect(() => {
         const STAR_COLOR = "#fff";
         const STAR_SIZE = 3;
@@ -215,8 +217,13 @@ export default function Hero() {
         setProjects((showProjects = !showProjects));
         console.log("CLICKED ON PRJECTS");
     }
+
+    function clickOnSkills(): void {
+        setSkills((showSkills = !showSkills));
+    }
     function closePopup(): void {
         setProjects(false);
+        setSkills(false);
     }
 
     return (
@@ -227,14 +234,17 @@ export default function Hero() {
             </div>
 
             {/*********************** POPUP  ***********************/}
+            {/****** PROJECTS  ***********************/}
+
             {showProjects && (
                 <Projects
                     closePopup={closePopup}
                     clickOnProjects={clickOnProjects}
                 ></Projects>
             )}
+            {/****** Skills  ***********************/}
 
-            {/* <Skills></Skills> */}
+            {showSkills && <Skills closePopup={closePopup}></Skills>}
 
             {/* **********************PLANETS**********************/}
 
@@ -267,6 +277,7 @@ export default function Hero() {
                 {/*  ********************SKILLS*********************/}
                 <div id="skillsPlanetWrapper" className="iconWrapper">
                     <img
+                        onClick={clickOnSkills}
                         className="planetIcon"
                         id="skillsPlanet"
                         src="img/planetSkills.png"

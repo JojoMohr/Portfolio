@@ -1,4 +1,4 @@
-.skillsWrapper {
+.skillPopup {
     position: absolute;
     display: flex;
     z-index: 4;
@@ -15,6 +15,9 @@
     padding: -10%;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.skillsWrapper {
 }
 .skillsHeading {
 }
@@ -38,7 +41,7 @@
     flex-direction: column;
     /* border: solid white 1px; */
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.405);
+    background-color: rgba(255, 255, 255, 0.605);
     width: 120px;
     height: 120px;
     margin: 10px;
@@ -47,8 +50,30 @@
 
 .skillIconWrapper img {
     margin-bottom: 10px;
-    max-width: 25px;
+    max-width: 40px;
+}
+.skillIconWrapper p {
+    font-weight: bold;
+    color: black;
 }
 .skillIconWrapper img:hover {
     filter: drop-shadow(0 0 3px #ffffff);
+}
+
+#closeProjects {
+    position: absolute;
+    z-index: 35px;
+    width: 35px;
+    top: 12px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 5;
+    /* border: solid white 1px; */
+
+    /* background-color: white; */
+    /* border: #ffffff solid 1px; */
+    /* border-radius: 50%; */
+}
+#closeProjects:hover {
+    filter: drop-shadow(0 0 2px #ffffff);
 }

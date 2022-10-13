@@ -17,28 +17,36 @@ import TypescriptIcon from "../../TechStackIcons/typescriptIcon";
 import VueIcon from "../../TechStackIcons/vueIcon";
 import "./skills.css";
 
-export default function Skills() {
+export default function Skills({ closePopup }) {
     return (
         <>
-            <div className="skillsWrapper">
-                <h1 className="skillsHeading">SKILLS</h1>
-                <div className="skillIconWrapper">
-                    <ReactIcon></ReactIcon>
-                    <JavaScriptIcon></JavaScriptIcon>
-                    <TypescriptIcon></TypescriptIcon>
-                    <GitIcon></GitIcon>
-                    <CssIcon></CssIcon>
-                    <HtmlIcon></HtmlIcon>
-                    <JqueryIcon></JqueryIcon>
-                    <HandlebarsIcon></HandlebarsIcon>
-                    <DockerIcon></DockerIcon>
-                    <NodejsIcon></NodejsIcon>
-                    <PostgresIcon></PostgresIcon>
-                    <ReduxIcon></ReduxIcon>
-                    <VueIcon></VueIcon>
-                    <SocketioIcon></SocketioIcon>
-                    <NetlifyIcon></NetlifyIcon>
-                    <ContentfulIcon></ContentfulIcon>
+            <div className="skillPopup">
+                <img
+                    onClick={closePopup}
+                    id="closeProjects"
+                    src="img/closeIcon.png"
+                    alt="Close"
+                />
+                <div className="skillsWrapper">
+                    <h1 className="skillsHeading">SKILLS</h1>
+                    <div className="skillIconWrapper">
+                        <ReactIcon></ReactIcon>
+                        <JavaScriptIcon></JavaScriptIcon>
+                        <TypescriptIcon></TypescriptIcon>
+                        <GitIcon></GitIcon>
+                        <CssIcon></CssIcon>
+                        <HtmlIcon></HtmlIcon>
+                        <JqueryIcon></JqueryIcon>
+                        <HandlebarsIcon></HandlebarsIcon>
+                        <DockerIcon></DockerIcon>
+                        <NodejsIcon></NodejsIcon>
+                        <PostgresIcon></PostgresIcon>
+                        <ReduxIcon></ReduxIcon>
+                        <VueIcon></VueIcon>
+                        <SocketioIcon></SocketioIcon>
+                        <NetlifyIcon></NetlifyIcon>
+                        <ContentfulIcon></ContentfulIcon>
+                    </div>
                 </div>
             </div>
         </>
