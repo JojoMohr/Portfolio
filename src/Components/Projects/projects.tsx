@@ -5,16 +5,14 @@ import "./projects.css";
 // import { AnimationOnScroll } from "react-animation-on-scroll";
 // import ReactSlidy from "react-slidy";
 import "react-slidy/lib/styles.css";
-
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 import ContentfulIcon from "../TechStackIcons/contentfulIcon";
-import ReactJs from "../TechStackIcons/reactIcon";
 import Netlify from "../TechStackIcons/netlifyIcon";
 import ReactIcon from "../TechStackIcons/reactIcon";
+import DockerIcon from "../TechStackIcons/dockerIcon";
 import NetlifyIcon from "../TechStackIcons/netlifyIcon";
 import GitIcon from "../TechStackIcons/gitIcon";
-import DockerIcon from "../TechStackIcons/dockerIcon";
 import CssIcon from "../TechStackIcons/cssIcon";
 import HandlebarsIcon from "../TechStackIcons/handlebarsIcon";
 import JqueryIcon from "../TechStackIcons/jqueryIcon";

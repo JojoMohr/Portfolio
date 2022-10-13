@@ -1,6 +1,7 @@
 import { click } from "@testing-library/user-event/dist/click";
 import React, { useEffect, useState } from "react";
 import Projects from "../Projects/projects";
+import Skills from "../Projects/Skills/skills";
 import "./hero.css";
 import "./planets.css";
 
@@ -232,6 +233,8 @@ export default function Hero() {
                     clickOnProjects={clickOnProjects}
                 ></Projects>
             )}
+
+            {/* <Skills></Skills> */}
 
             {/* **********************PLANETS**********************/}
 

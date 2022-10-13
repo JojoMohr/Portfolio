@@ -32,12 +32,8 @@ AOS.init({
 function App() {
     return (
         <div className="pageWrapper">
-            {/* <Navbar></Navbar> */}
             <div className="mainPage">
                 <Hero></Hero>
-                {/* <About></About>
-                <Projects></Projects>
-                <Footer></Footer> */}
             </div>
         </div>
     );
