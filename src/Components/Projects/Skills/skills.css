@@ -10,7 +10,8 @@
     border: rgba(255, 255, 255, 0.763) solid 1px;
     border-radius: 20px;
     -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    background-color: #ffffff18;
+    backdrop-filter: blur(15px);
     overflow: scroll;
     padding: -10%;
     flex-direction: column;
@@ -18,43 +19,64 @@
 }
 
 .skillsWrapper {
+    position: fixed;
+    padding: 20px;
+    top: 10px;
 }
 .skillsHeading {
+    position: relative;
+    /* top: 20px; */
+    /* border: red solid; */
+    /* font-size: large; */
+    /* top: 30px; */
 }
 
+#trenner {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 80%;
+    /* border: 2px solid white; */
+    background-color: white;
+}
+/*  ======= ICONS ================ */
 .skillIconWrapper {
-    /* position: absolute; */
+    position: relative;
     display: flex;
-    z-index: 1;
-    transition: 1s;
-    /* border: white 1px solid; */
+    justify-content: center;
     flex-direction: row;
     align-content: center;
     flex-wrap: wrap;
-    justify-content: center;
+    top: 65px;
+    width: 80%;
+    gap: 10px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 1s;
     padding: 5px;
+    border: solid;
 }
+
 .skillIconWrapper > * {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    /* border: solid white 1px; */
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.605);
-    width: 120px;
-    height: 120px;
-    margin: 10px;
+    margin: 15px;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .skillIconWrapper img {
     margin-bottom: 10px;
-    max-width: 40px;
+    max-width: 50px;
 }
 .skillIconWrapper p {
     font-weight: bold;
-    color: black;
+    color: white;
 }
 .skillIconWrapper img:hover {
     filter: drop-shadow(0 0 3px #ffffff);

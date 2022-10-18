@@ -29,6 +29,7 @@ export default function Skills({ closePopup }) {
                 />
                 <div className="skillsWrapper">
                     <h1 className="skillsHeading">SKILLS</h1>
+                    <div id="trenner"></div>
                     <div className="skillIconWrapper">
                         <ReactIcon></ReactIcon>
                         <JavaScriptIcon></JavaScriptIcon>
