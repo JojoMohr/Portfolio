@@ -1,13 +1,15 @@
 import { click } from "@testing-library/user-event/dist/click";
 import React, { useEffect, useState } from "react";
 import Projects from "../Projects/projects";
-import Skills from "../Projects/Skills/skills";
+import Resume from "../Resume/resume";
+import Skills from "../Skills/skills";
 import "./hero.css";
 import "./planets.css";
 
 export default function Hero() {
     let [showProjects, setProjects] = useState(false);
     let [showSkills, setSkills] = useState(false);
+    let [showResume, setResume] = useState(false);
 
     // STARS =============================================================
     useEffect(() => {
@@ -221,9 +223,13 @@ export default function Hero() {
     function clickOnSkills(): void {
         setSkills((showSkills = !showSkills));
     }
+    function clickOnResume(): void {
+        setResume((showResume = !showResume));
+    }
     function closePopup(): void {
         setProjects(false);
         setSkills(false);
+        setResume(false);
     }
 
     return (
@@ -246,6 +252,9 @@ export default function Hero() {
 
             {showSkills && <Skills closePopup={closePopup}></Skills>}
 
+            {/* ********************** RESUME **********************/}
+            {showResume && <Resume closePopup={closePopup}></Resume>}
+
             {/* **********************PLANETS**********************/}
 
             <div className="planets">
@@ -265,6 +274,7 @@ export default function Hero() {
                 {/*  *********************RESUME********************/}
                 <div id="resumePlanetWrapper" className="iconWrapper">
                     <img
+                        onClick={clickOnResume}
                         className="planetIcon"
                         id="resumePlanet"
                         src="img/planetResume.png"

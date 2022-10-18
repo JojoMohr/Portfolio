@@ -5,8 +5,10 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
-    height: 90%;
+    max-width: 1200px;
+    width: 90%;
+    max-height: 90%;
+    min-height: 90%;
     border: rgba(255, 255, 255, 0.763) solid 1px;
     border-radius: 20px;
     -webkit-backdrop-filter: blur(5px);
@@ -20,15 +22,12 @@
 
 .skillsWrapper {
     position: fixed;
+    top: 50%;
     padding: 20px;
     top: 10px;
 }
 .skillsHeading {
     position: relative;
-    /* top: 20px; */
-    /* border: red solid; */
-    /* font-size: large; */
-    /* top: 30px; */
 }
 
 #trenner {
@@ -36,7 +35,7 @@
     left: 50%;
     transform: translateX(-50%);
     height: 1px;
-    width: 80%;
+    width: 90%;
     /* border: 2px solid white; */
     background-color: white;
 }
@@ -48,15 +47,18 @@
     flex-direction: row;
     align-content: center;
     flex-wrap: wrap;
-    top: 65px;
-    width: 80%;
+    top: 2em;
+    width: 90%;
+    min-width: 250px;
     gap: 10px;
     z-index: 1;
     left: 50%;
     transform: translateX(-50%);
+    border-radius: 40px;
     transition: 1s;
     padding: 5px;
-    border: solid;
+    background-color: #ffffff12;
+    margin-bottom: 30px;
 }
 
 .skillIconWrapper > * {
@@ -73,6 +75,7 @@
 .skillIconWrapper img {
     margin-bottom: 10px;
     max-width: 50px;
+    min-width: 30px;
 }
 .skillIconWrapper p {
     font-weight: bold;
