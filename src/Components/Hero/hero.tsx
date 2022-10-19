@@ -233,7 +233,7 @@ export default function Hero() {
     }
 
     return (
-        <div className="pageSection" id="hero">
+        <section className="pageSection" id="hero">
             <div className="infoName" data-aos="fade-left">
                 <h1>Johannes Mohr</h1>
                 <h3>Frontend Development</h3>
@@ -334,6 +334,6 @@ export default function Hero() {
                 ></img>
             </div>
             <canvas onClick={closePopup}></canvas>
-        </div>
+        </section>
     );
 }

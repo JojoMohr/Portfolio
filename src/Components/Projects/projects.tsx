@@ -46,7 +46,7 @@ export default function Projects({ closePopup, clickOnProjects }) {
         },
     };
     return (
-        <div className="pageSection" id="projects">
+        <section className="pageSection" id="projects">
             {/* <h1 className="heading">Projects</h1> */}
             <div className="projectsWrapper">
                 <img
@@ -271,6 +271,6 @@ export default function Projects({ closePopup, clickOnProjects }) {
                     </Carousel>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
