@@ -1,27 +1,52 @@
-.resumeWrapper {
+.background {
+    z-index: 2;
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 2;
     height: 100vh;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.487);
+    /* border: solid; */
+}
+
+.resumeWrapper {
+    position: absolute;
+    z-index: 5;
+    /* FLEX  */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: flex-end;
+    align-content: center;
+    justify-content: baseline;
+    /*  */
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #resumeImg {
-    /* position: absolute;
-    left: 3%;
-    top: 50%; */
-    /* transform: translateX(0%); */
-    /* transform: translateY(-50%); */
     max-height: 95vh;
     max-width: 95vw;
     border-radius: 10px;
 }
+
 .downloadIcon {
-    position: absolute;
-    /* left: 50%; */
+    /* border: solid red 1px; */
+    width: 40px;
+    transition: 0.5s;
+}
+.downloadIcon a {
+}
+
+.downloadIcon:hover {
+    width: 50px;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 470px) {
+    .downloadIcon {
+        display: none;
+    }
 }

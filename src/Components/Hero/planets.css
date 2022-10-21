@@ -9,13 +9,10 @@
 }
 
 .iconWrapper {
-    /* position: absolute; */
     display: flex;
     z-index: 1;
     transition: 1s;
-    /* left: 20%;
-    top: 20%; */
-    /* border: white 1px solid; */
+    max-width: 200px;
     flex-direction: column;
     align-content: center;
     align-items: center;
