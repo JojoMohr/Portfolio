@@ -46,13 +46,14 @@
 }
 
 #sendButton {
-    width: 120px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background-color: none;
-    border-radius: 5px;
+    border-radius: 50%;
     /* background-color: white; */
     color: white;
     font-weight: bolder;
+    font-size: 10px;
 }
 
 #sendButton:hover {

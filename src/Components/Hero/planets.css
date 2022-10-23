@@ -2,10 +2,12 @@
 
 .planets {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    max-width: 90%;
     position: absolute;
+    /* border: solid; */
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .iconWrapper {
@@ -19,9 +21,9 @@
     justify-content: center;
 }
 .planetIcon {
-    width: 150px;
-    margin-left: 18px;
-    margin-right: 18px;
+    max-width: 70%;
+    /* margin-left: 18px;
+    margin-right: 18px; */
     /* border: white 1px solid; */
 }
 

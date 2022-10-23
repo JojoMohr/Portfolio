@@ -5,12 +5,6 @@ const keys = require("../../secrets.json");
 
 export default function Contact({ closePopup }) {
     const form = useRef();
-    console.log(
-        "🟢",
-        keys.MY_SERVICE_ID,
-        keys.MY_TEMPLATE_ID,
-        keys.MY_PUBLIC_KEY
-    );
 
     const sendEmail = (e): void => {
         e.preventDefault();
@@ -30,12 +24,7 @@ export default function Contact({ closePopup }) {
                 },
                 (error) => {
                     console.log(error.text);
-                    console.log(
-                        "🟢",
-                        keys.MY_SERVICE_ID,
-                        keys.MY_TEMPLATE_ID,
-                        keys.MY_PUBLIC_KEY
-                    );
+
                     console.log("MESSAGE FAILED TO SENT");
                 }
             );
@@ -57,7 +46,11 @@ export default function Contact({ closePopup }) {
                 <input type="email" name="user_email" />
                 <label>Message</label>
                 <textarea name="message" />
-                <input id="sendButton" type="submit" value="SEND OF 🪐" />
+                <input
+                    id="sendButton"
+                    type="submit"
+                    value="LIFT OF"
+                />
             </form>
         </div>
     );
