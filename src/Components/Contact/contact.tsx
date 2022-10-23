@@ -2,27 +2,28 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 const keys = require("../../secrets.json");
+// require("dotenv").config();
 
 export default function Contact({ closePopup }) {
-    const form = useRef();
+    const form = useRef<HTMLFormElement>(null);
 
     const sendEmail = (e): void => {
         e.preventDefault();
 
         emailjs
             .sendForm(
-                keys.MY_SERVICE_ID,
-                keys.MY_TEMPLATE_ID,
-                form.current,
-                keys.MY_PUBLIC_KEY
+                keys.REACT_APP_SERVICE_ID,
+                keys.REACT_APP_TEMPLATE_ID,
+                // form.current,
+                keys.REACT_APP_PUBLIC_KEY
             )
             .then(
-                (result) => {
+                (result: { text: any }) => {
                     console.log(result.text);
                     e.target.reset();
                     console.log("MESSAGE SENT");
                 },
-                (error) => {
+                (error: { text: any }) => {
                     console.log(error.text);
 
                     console.log("MESSAGE FAILED TO SENT");
@@ -41,16 +42,14 @@ export default function Contact({ closePopup }) {
             {/* <div id="trenner"></div> */}
             <form className="contactForm" ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
-                <input type="text" name="user_name" />
+                <input type="text" name="from_name" />
+                {/* <label>Subject</label>
+                <input type="text" name="subject" /> */}
                 <label>Email</label>
                 <input type="email" name="user_email" />
                 <label>Message</label>
                 <textarea name="message" />
-                <input
-                    id="sendButton"
-                    type="submit"
-                    value="LIFT OF"
-                />
+                <input id="sendButton" type="submit" value="LIFT OF" />
             </form>
         </div>
     );

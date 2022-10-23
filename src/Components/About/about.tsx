@@ -31,10 +31,12 @@ export default function About({ closePopup }) {
                     <h1>ABOUT</h1>
                     <div id="trenner"></div>
                     <p>
-                        LOREM IMPSUM LOREM IMPSUM LOREM IMPSUM LOREM IMPSUM
-                        LOREM IMPSUM LOREM IMPSUM LOREM IMPSUM LOREM IMPSUM{" "}
-                        LOREM IMPSUM LOREM IMPSUM LOREM IMPSUM LOREM IMPSUMLOREM
-                        IMPSUMLOREM IMPSUMLOREM IMPSUMLOREM IMPSUMLOREM IMPSUM
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et
+                        dolore magna aliquyam erat, sed diam voluptua. Lorem
+                        ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                        diam nonumy eirmod tempor invidunt ut labore et dolore
+                        magna aliquyam erat, sed diam voluptua.
                     </p>
                 </div>
                 <div className="skillsWrapper">
