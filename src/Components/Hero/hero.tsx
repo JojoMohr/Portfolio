@@ -216,6 +216,7 @@ export default function Hero() {
 
         console.log("useeffect is working");
     });
+    // ===================================================================
 
     function clickOnProjects(): void {
         setProjects((showProjects = !showProjects));
@@ -243,7 +244,7 @@ export default function Hero() {
         <section className="pageSection" id="hero">
             <div className="infoName" data-aos="fade-left">
                 <h1>Johannes Mohr</h1>
-                <h3>Frontend Development</h3>
+                <h3>frontendDevelopment</h3>
             </div>
 
             {/************************ POPUP  ***********************/}

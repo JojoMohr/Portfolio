@@ -36,7 +36,7 @@ h1 {
     font-style: normal;
     font-weight: normal;
     src: local("Morelife Regular"), url("Morelife-JR0LM.woff") format("woff");
-    font-size: 10vmin; /* responsive font size */
+    font-size: 11vmin; /* responsive font size */
     text-align: center;
 }
 h3 {
