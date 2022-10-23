@@ -1,0 +1,15 @@
+.contactWrapper {
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 1200px;
+    height: 90vh;
+    padding: -10%;
+    border: rgba(255, 255, 255, 0.763) solid 1px;
+    border-radius: 20px;
+    overflow: scroll;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}

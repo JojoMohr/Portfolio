@@ -1,8 +1,9 @@
 import { click } from "@testing-library/user-event/dist/click";
 import React, { useEffect, useState } from "react";
+import Contact from "../Contact/contact";
 import Projects from "../Projects/projects";
 import Resume from "../Resume/resume";
-import Skills from "../Skills/skills";
+import About from "../About/about";
 import "./hero.css";
 import "./planets.css";
 
@@ -10,6 +11,7 @@ export default function Hero() {
     let [showProjects, setProjects] = useState(false);
     let [showSkills, setSkills] = useState(false);
     let [showResume, setResume] = useState(false);
+    let [showContact, setContact] = useState(false);
 
     // STARS =============================================================
     useEffect(() => {
@@ -226,10 +228,15 @@ export default function Hero() {
     function clickOnResume(): void {
         setResume((showResume = !showResume));
     }
+    function clickOnContact(): void {
+        setContact((showContact = !showContact));
+    }
+
     function closePopup(): void {
         setProjects(false);
         setSkills(false);
         setResume(false);
+        setContact(false);
     }
 
     return (
@@ -239,21 +246,21 @@ export default function Hero() {
                 <h3>Frontend Development</h3>
             </div>
 
-            {/*********************** POPUP  ***********************/}
-            {/****** PROJECTS  ***********************/}
-
+            {/************************ POPUP  ***********************/}
+            {/************************ PROJECTS  *******************/}
             {showProjects && (
                 <Projects
                     closePopup={closePopup}
                     clickOnProjects={clickOnProjects}
                 ></Projects>
             )}
-            {/****** Skills  ***********************/}
-
-            {showSkills && <Skills closePopup={closePopup}></Skills>}
-
             {/* ********************** RESUME **********************/}
             {showResume && <Resume closePopup={closePopup}></Resume>}
+            {/************************ Skills  *********************/}
+
+            {showSkills && <About closePopup={closePopup}></About>}
+            {/************************ CONTACT  *********************/}
+            {showContact && <Contact closePopup={closePopup}></Contact>}
 
             {/* **********************PLANETS**********************/}
 
@@ -294,12 +301,13 @@ export default function Hero() {
                         alt="Skills Icon"
                     ></img>
                     <h2 className="heading" id="skillsHeading">
-                        SKILLS
+                        ABOUT
                     </h2>
                 </div>
                 {/*  ********************CONTACT*********************/}
                 <div id="contactPlanetWrapper" className="iconWrapper">
                     <img
+                        onClick={clickOnContact}
                         className="planetIcon"
                         id="contactPlanet"
                         src="img/planetContact.png"
@@ -317,7 +325,7 @@ export default function Hero() {
                     alt="mercury"
                 ></img> */}
             </div>
-            {/*  ********************Github*********************/}
+            {/*  ******************** SOCIALS *********************/}
             <div className="socials">
                 <img
                     className="socialIcon"

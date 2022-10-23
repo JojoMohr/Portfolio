@@ -15,18 +15,28 @@ import ReduxIcon from "../TechStackIcons/reduxIcon";
 import SocketioIcon from "../TechStackIcons/socketioIcon";
 import TypescriptIcon from "../TechStackIcons/typescriptIcon";
 import VueIcon from "../TechStackIcons/vueIcon";
-import "./skills.css";
+import "./about.css";
 
-export default function Skills({ closePopup }) {
+export default function About({ closePopup }) {
     return (
         <>
-            <div className="skillPopup">
+            <div className="aboutPopup">
                 <img
                     onClick={closePopup}
                     id="closeProjects"
                     src="img/closeIcon.png"
                     alt="Close"
                 />
+                <div className="aboutWrapper">
+                    <h1>ABOUT</h1>
+                    <div id="trenner"></div>
+                    <p>
+                        LOREM IMPSUM LOREM IMPSUM LOREM IMPSUM LOREM IMPSUM
+                        LOREM IMPSUM LOREM IMPSUM LOREM IMPSUM LOREM IMPSUM{" "}
+                        LOREM IMPSUM LOREM IMPSUM LOREM IMPSUM LOREM IMPSUMLOREM
+                        IMPSUMLOREM IMPSUMLOREM IMPSUMLOREM IMPSUMLOREM IMPSUM
+                    </p>
+                </div>
                 <div className="skillsWrapper">
                     <h1 className="skillsHeading">SKILLS</h1>
                     <div id="trenner"></div>
