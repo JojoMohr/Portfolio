@@ -14,7 +14,7 @@ export default function Contact({ closePopup }) {
             .sendForm(
                 keys.REACT_APP_SERVICE_ID,
                 keys.REACT_APP_TEMPLATE_ID,
-                // form.current,
+                form.current!,
                 keys.REACT_APP_PUBLIC_KEY
             )
             .then(
