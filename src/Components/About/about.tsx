@@ -17,7 +17,7 @@ import TypescriptIcon from "../TechStackIcons/typescriptIcon";
 import VueIcon from "../TechStackIcons/vueIcon";
 import "./about.css";
 
-export default function About({ closePopup }) {
+export default function About({ closePopup }: any) {
     return (
         <>
             <div className="aboutPopup">

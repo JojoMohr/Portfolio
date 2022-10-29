@@ -1,7 +1,8 @@
+import { AnyCnameRecord } from "dns";
 import React from "react";
 import "./resume.css";
 
-export default function Resume({ closePopup }) {
+export default function Resume({ closePopup }: any) {
     return (
         <section>
             <div onClick={closePopup} className="background">

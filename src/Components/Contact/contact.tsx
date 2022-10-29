@@ -4,10 +4,10 @@ import "./contact.css";
 const keys = require("../../secrets.json");
 // require("dotenv").config();
 
-export default function Contact({ closePopup }) {
+export default function Contact({ closePopup }: any) {
     const form = useRef<HTMLFormElement>(null);
 
-    const sendEmail = (e): void => {
+    const sendEmail = (e: any): void => {
         e.preventDefault();
 
         emailjs

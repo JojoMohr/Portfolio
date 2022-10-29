@@ -25,7 +25,7 @@ import TypescriptIcon from "../TechStackIcons/typescriptIcon";
 import VueIcon from "../TechStackIcons/vueIcon";
 import JavaScriptIcon from "../TechStackIcons/javascriptIcon";
 
-export default function Projects({ closePopup, clickOnProjects }) {
+export default function Projects({ closePopup, clickOnProjects }: any) {
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.

@@ -1,4 +1,4 @@
-import { click } from "@testing-library/user-event/dist/click";
+// import { click } from "@testing-library/user-event/dist/click";
 import React, { useEffect, useState } from "react";
 import Contact from "../Contact/contact";
 import Projects from "../Projects/projects";
@@ -25,12 +25,12 @@ export default function Hero() {
             context = canvas.getContext("2d");
 
         let scale = 1, // device pixel ratio
-            width,
-            height;
+            width: any,
+            height: any;
 
         let stars: any[] = [];
 
-        let pointerX, pointerY;
+        let pointerX: any, pointerY: any;
 
         let velocity = { x: 0, y: 0, tx: 0, ty: 0, z: 0.0005 };
 
@@ -56,12 +56,12 @@ export default function Hero() {
             }
         }
 
-        function placeStar(star) {
+        function placeStar(star: any): any {
             star.x = Math.random() * width;
             star.y = Math.random() * height;
         }
 
-        function recycleStar(star) {
+        function recycleStar(star: any): any {
             let direction = "z";
 
             let vx = Math.abs(velocity.x),
@@ -176,7 +176,7 @@ export default function Hero() {
             });
         }
 
-        function movePointer(x, y) {
+        function movePointer(x: any, y: any): any {
             if (typeof pointerX === "number" && typeof pointerY === "number") {
                 let ox = x - pointerX,
                     oy = y - pointerY;
@@ -191,13 +191,13 @@ export default function Hero() {
             pointerY = y;
         }
 
-        function onMouseMove(event) {
+        function onMouseMove(event: any): any {
             touchInput = false;
 
             movePointer(event.clientX, event.clientY);
         }
 
-        function onTouchMove(event) {
+        function onTouchMove(event:  any) : any {
             touchInput = true;
 
             movePointer(
