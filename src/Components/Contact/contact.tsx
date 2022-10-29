@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 const keys = require("../../secrets.json");
-// require("dotenv").config();
+require("dotenv").config();
 
 export default function Contact({ closePopup }: any) {
     const form = useRef<HTMLFormElement>(null);
