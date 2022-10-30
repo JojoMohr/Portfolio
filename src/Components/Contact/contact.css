@@ -7,9 +7,9 @@
     z-index: 4;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
-    height: 90vh;
+    height: 95vh;
     padding: -10%;
     border: rgba(255, 255, 255, 0.763) solid 1px;
     border-radius: 20px;
