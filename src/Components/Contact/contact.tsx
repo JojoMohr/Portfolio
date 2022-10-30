@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 const keys = require("../../secrets.json");
-require("dotenv").config();
+// require("dotenv").config();
 
 export default function Contact({ closePopup }: any) {
     const form = useRef<HTMLFormElement>(null);
@@ -21,12 +21,12 @@ export default function Contact({ closePopup }: any) {
                 (result: { text: any }) => {
                     console.log(result.text);
                     e.target.reset();
-                    console.log("MESSAGE SENT");
+                    alert("MESSAGE SENT");
                 },
                 (error: { text: any }) => {
                     console.log(error.text);
 
-                    console.log("MESSAGE FAILED TO SENT");
+                    alert("MESSAGE FAILED TO SENT");
                 }
             );
     };
