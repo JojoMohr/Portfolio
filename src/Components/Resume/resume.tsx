@@ -10,7 +10,7 @@ export default function Resume({ closePopup }: any) {
                     <img id="resumeImg" src="/img/cv.png" alt="CV" />
                     <a
                         className="anchorTag"
-                        href="img/cv.pdf"
+                        href="img/cv.jpg"
                         download="Johannes Mohr CV"
                     >
                         <img
