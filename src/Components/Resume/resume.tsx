@@ -7,7 +7,7 @@ export default function Resume({ closePopup }: any) {
         <section>
             <div onClick={closePopup} className="background">
                 <div className="resumeWrapper">
-                    <img id="resumeImg" src="/img/cv.png" alt="CV" />
+                    <img id="resumeImg" src="/img/cv.jpg" alt="CV" />
                     <a
                         className="anchorTag"
                         href="img/cv.jpg"
