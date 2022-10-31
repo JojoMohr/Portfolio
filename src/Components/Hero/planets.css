@@ -15,28 +15,34 @@
     display: flex;
     z-index: 1;
     transition: 1s;
-    /* width: 200px; */
-    max-width: 220px;
+    max-width: 200px;
+    /* max-width: 220px; */
     flex-direction: column;
     align-content: center;
     align-items: center;
     justify-content: center;
     /* border: solid; */
 }
+/* .iconWrapper:hover {
+    border: solid 1px;
+} */
 .planetIcon {
-    max-width: 150px;
+    max-width: 200px;
+    width: 150px;
+    transition: 1s;
     /* margin-left: 18px;
     margin-right: 18px; */
     /* border: white 1px solid; */
 }
 
 .planetIcon:hover {
-    transition: 0.5s;
+    transition: 1s;
     transform: rotate(-20deg);
     -webkit-transform: rotate(5deg);
     filter: drop-shadow(0 0 3px #ffffff);
     cursor: pointer;
-    width: 250px;
+    width: 200px;
+    /* border: solid 1px; */
 }
 
 .heading {
