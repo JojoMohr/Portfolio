@@ -8,7 +8,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
-    max-width: 1200px;
+    max-width: 800px;
     height: 95vh;
     padding: -10%;
     border: rgba(255, 255, 255, 0.763) solid 1px;
@@ -24,12 +24,12 @@
     align-items: center;
     justify-content: center;
     margin: 5%;
-    width: 70%;
+    width: 90%;
     gap: 10px;
 }
 
 .contactForm input {
-    width: 70%;
+    width: 80%;
     border-radius: 5px;
     color: white;
     padding: 10px;
@@ -37,7 +37,7 @@
 }
 
 .contactForm textarea {
-    width: 70%;
+    width: 80%;
     height: 150px;
     color: white;
     border-radius: 5px;

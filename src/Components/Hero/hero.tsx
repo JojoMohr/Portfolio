@@ -197,7 +197,7 @@ export default function Hero() {
             movePointer(event.clientX, event.clientY);
         }
 
-        function onTouchMove(event:  any) : any {
+        function onTouchMove(event: any): any {
             touchInput = true;
 
             movePointer(
@@ -246,7 +246,6 @@ export default function Hero() {
                 <h1>Johannes Mohr</h1>
                 <h3>frontendDevelopment</h3>
             </div>
-
             {/************************ POPUP  ***********************/}
             {/************************ PROJECTS  *******************/}
             {showProjects && (
@@ -258,14 +257,16 @@ export default function Hero() {
             {/* ********************** RESUME **********************/}
             {showResume && <Resume closePopup={closePopup}></Resume>}
             {/************************ Skills  *********************/}
-
             {showSkills && <About closePopup={closePopup}></About>}
             {/************************ CONTACT  *********************/}
             {showContact && <Contact closePopup={closePopup}></Contact>}
-
             {/* **********************PLANETS**********************/}
-
-            <div className="planets">
+            <div
+                data-aos="zoom-in"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+                className="planets"
+            >
                 {/*  *********************PROJECTS********************/}
                 <div id="projectsPlanetWrapper" className="iconWrapper">
                     <img

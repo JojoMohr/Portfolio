@@ -42,7 +42,12 @@ export default function About({ closePopup }: any) {
                 <div className="skillsWrapper">
                     <h1 className="skillsHeading">SKILLS</h1>
                     <div id="trenner"></div>
-                    <div className="skillIconWrapper">
+                    <div
+                        // data-aos="zoom-in-down"
+                        // data-aos-duration="500"
+                        // data-aos-easing="ease-in-sine"
+                        className="skillIconWrapper"
+                    >
                         <ReactIcon></ReactIcon>
                         <JavaScriptIcon></JavaScriptIcon>
                         <TypescriptIcon></TypescriptIcon>
