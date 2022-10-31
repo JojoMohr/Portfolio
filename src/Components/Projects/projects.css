@@ -57,7 +57,8 @@
     width: 80%;
     /* max-width: 1000px; */
     max-width: 1000px;
-    max-height: 95vh;
+    max-height: 90vh;
+    /* min-height: 00px; */
     padding: -10%;
     border: rgba(255, 255, 255, 0.763) solid 1px;
     border-radius: 20px;

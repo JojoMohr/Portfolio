@@ -9,13 +9,14 @@
     transform: translateX(-50%);
     width: 90%;
     max-width: 800px;
-    height: 95vh;
+    max-height: 90vh;
     padding: -10%;
     border: rgba(255, 255, 255, 0.763) solid 1px;
     border-radius: 20px;
     overflow: scroll;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
+    padding: 5%;
 }
 
 .contactForm {
