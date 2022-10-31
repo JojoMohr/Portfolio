@@ -99,6 +99,37 @@
     opacity: 1;
     visibility: visible;
 }
+
+@media only screen and (max-width: 400px) {
+    #contactHeading {
+        font-size: 15px;
+        opacity: 1;
+        visibility: visible;
+    }
+    #skillsHeading {
+        font-size: 15px;
+
+        opacity: 1;
+        visibility: visible;
+    }
+    #resumeHeading {
+        font-size: 15px;
+
+        opacity: 1;
+        visibility: visible;
+    }
+    #resumeHeading {
+        font-size: 15px;
+
+        opacity: 1;
+        visibility: visible;
+    }
+    #projectsHeading {
+        font-size: 15px;
+        opacity: 1;
+        visibility: visible;
+    }
+}
 /*  Skills Planet *****************************************/
 #skillsPlanet {
     z-index: 1;
