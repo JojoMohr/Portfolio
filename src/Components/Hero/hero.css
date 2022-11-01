@@ -44,12 +44,17 @@ h1 {
     font-style: normal;
     font-weight: normal;
     src: local("Morelife Regular"), url("Morelife-JR0LM.woff") format("woff");
-    font-size: 11vmin; /* responsive font size */
+    font-size: 5vmin; /* responsive font size */
+    /* font-size: 50px; */
+    font-size: calc(20px + 3.8vmin);
+
     text-align: center;
 }
 h3 {
-    font-size: 3.4vmin; /* responsive font size */
+    /* font-size: 1.8vmin; responsive font size */
+    font-size: calc(10px + 0.8vmin);
     text-align: center;
+    /* font-size: 15px; */
 }
 .infoName {
     position: absolute;
@@ -74,16 +79,16 @@ h3 {
     position: absolute;
     z-index: 1;
     transition: 0.5s;
-    width: 40px;
-    right: 80px;
-    top: 5%;
+    width: 34px;
+    right: 100px;
+    top: 5.4%;
 }
 #linkedinIcon {
     position: absolute;
     z-index: 1;
     transition: 0.5s;
-    width: 40px;
-    right: 40px;
+    width: 42px;
+    right: 50px;
     top: 5%;
 }
 

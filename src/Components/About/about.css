@@ -1,6 +1,7 @@
 .aboutPopup {
     position: absolute;
     /* display: flex; */
+    padding: 20px;
     z-index: 4;
     left: 50%;
     top: 50%;
@@ -101,8 +102,13 @@
     font-weight: bold;
     color: white;
 }
+.skillIconWrapper img {
+    filter: drop-shadow(0 0 2px #ffffff);
+}
 .skillIconWrapper img:hover {
-    filter: drop-shadow(0 0 3px #ffffff);
+    filter: drop-shadow(0 0 2px #ffffff);
+    margin-bottom: 15px;
+    transition: 0.3s;
 }
 
 #closeProjects {

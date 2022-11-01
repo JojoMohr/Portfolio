@@ -24,6 +24,7 @@ import SocketioIcon from "../TechStackIcons/socketioIcon";
 import TypescriptIcon from "../TechStackIcons/typescriptIcon";
 import VueIcon from "../TechStackIcons/vueIcon";
 import JavaScriptIcon from "../TechStackIcons/javascriptIcon";
+import LocalStorageIcon from "../TechStackIcons/database";
 
 export default function Projects({ closePopup, clickOnProjects }: any) {
     const responsive = {
@@ -143,6 +144,7 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                     <JavaScriptIcon></JavaScriptIcon>
                                     <HtmlIcon></HtmlIcon>
                                     <CssIcon></CssIcon>
+                                    <LocalStorageIcon></LocalStorageIcon>
                                 </div>
                             </div>
                         </div>

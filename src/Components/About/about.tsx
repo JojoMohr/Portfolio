@@ -1,6 +1,7 @@
 import React from "react";
 import ContentfulIcon from "../TechStackIcons/contentfulIcon";
 import CssIcon from "../TechStackIcons/cssIcon";
+import LocalStorageIcon from "../TechStackIcons/database";
 import DockerIcon from "../TechStackIcons/dockerIcon";
 import GitIcon from "../TechStackIcons/gitIcon";
 import HandlebarsIcon from "../TechStackIcons/handlebarsIcon";
@@ -59,6 +60,7 @@ export default function About({ closePopup }: any) {
                         <DockerIcon></DockerIcon>
                         <NodejsIcon></NodejsIcon>
                         <PostgresIcon></PostgresIcon>
+                        <LocalStorageIcon></LocalStorageIcon>
                         <ReduxIcon></ReduxIcon>
                         <VueIcon></VueIcon>
                         <SocketioIcon></SocketioIcon>
