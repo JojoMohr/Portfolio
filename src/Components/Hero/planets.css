@@ -101,33 +101,42 @@
 }
 
 @media only screen and (max-width: 400px) {
+    .planetIcon {
+        max-width: 200px;
+        width: 80px;
+        transition: 1s;
+        /* margin-left: 18px;
+    margin-right: 18px; */
+        /* border: white 1px solid; */
+    }
+
     #contactHeading {
         font-size: 15px;
         opacity: 1;
-        visibility: visible;
+        display: none;
     }
     #skillsHeading {
         font-size: 15px;
 
         opacity: 1;
-        visibility: visible;
+        display: none;
     }
     #resumeHeading {
         font-size: 15px;
 
         opacity: 1;
-        visibility: visible;
+        display: none;
     }
     #resumeHeading {
         font-size: 15px;
 
         opacity: 1;
-        visibility: visible;
+        display: none;
     }
     #projectsHeading {
         font-size: 15px;
         opacity: 1;
-        visibility: visible;
+        display: none;
     }
 }
 /*  Skills Planet *****************************************/
