@@ -29,15 +29,18 @@ export default function About({ closePopup }: any) {
                     alt="Close"
                 />
                 <div className="aboutWrapper">
-                    <h1>ABOUT</h1>
+                    <h1>ABOUT ME</h1>
                     <div id="trenner"></div>
                     <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                        sed diam nonumy eirmod tempor invidunt ut labore et
-                        dolore magna aliquyam erat, sed diam voluptua. Lorem
-                        ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                        diam nonumy eirmod tempor invidunt ut labore et dolore
-                        magna aliquyam erat, sed diam voluptua.
+                        Frontend enthusiast and passionate about web
+                        development. React Fan and eager to learn new
+                        technologies. Below you can find a summary of all the
+                        technologies I have worked so far. I am constantly
+                        working on making that list longer.
+                        <br></br>
+                        Any Idea you might want to put to life? Just hit me up
+                        via the contact form on the planet to the right and I
+                        will get right back to you 🪐
                     </p>
                 </div>
                 <div className="skillsWrapper">
