@@ -242,9 +242,27 @@ export default function Hero() {
 
     return (
         <section className="pageSection" id="hero">
-            <div className="infoName" data-aos="fade-left">
-                <h1>Johannes Mohr</h1>
-                <h3>frontendDevelopment</h3>
+            <div id="header">
+                <div className="infoName" data-aos="fade-left">
+                    <h1>Johannes Mohr</h1>
+                    <h3>frontendDevelopment</h3>
+                </div>
+                {/*  ******************** SOCIALS *********************/}
+                <div className="socials">
+                    <img
+                        className="socialIcon"
+                        id="githubIcon"
+                        src="img/github.png"
+                        alt="Github Icon"
+                    ></img>
+
+                    <img
+                        className="socialIcon"
+                        id="linkedinIcon"
+                        src="img/linkedin.png"
+                        alt="Linkedin"
+                    ></img>
+                </div>
             </div>
             {/************************ POPUP  ***********************/}
             {/************************ PROJECTS  *******************/}
@@ -327,22 +345,7 @@ export default function Hero() {
                     alt="mercury"
                 ></img> */}
             </div>
-            {/*  ******************** SOCIALS *********************/}
-            <div className="socials">
-                <img
-                    className="socialIcon"
-                    id="githubIcon"
-                    src="img/github.png"
-                    alt="Github Icon"
-                ></img>
 
-                <img
-                    className="socialIcon"
-                    id="linkedinIcon"
-                    src="img/linkedin.png"
-                    alt="Linkedin"
-                ></img>
-            </div>
             <canvas onClick={closePopup}></canvas>
         </section>
     );

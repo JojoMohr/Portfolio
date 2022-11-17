@@ -37,6 +37,14 @@ a:hover {
     color: #fff;
 }
 
+/*  ======  HEADER  ===
+======== */
+/* #header {
+    border: solid 1px white;
+    z-index: 5;
+} */
+/*/================ NAME ====================== */
+
 h1 {
     font-family: "Morelife Regular";
     font-style: normal;
@@ -47,7 +55,6 @@ h1 {
     font-size: 5vmin; /* responsive font size */
     /* font-size: 50px; */
     font-size: calc(20px + 3.8vmin);
-
     text-align: center;
 }
 h3 {
@@ -80,7 +87,7 @@ h3 {
     z-index: 1;
     transition: 0.5s;
     width: 34px;
-    right: 100px;
+    right: 80px;
     top: 5.4%;
 }
 #linkedinIcon {
@@ -88,7 +95,7 @@ h3 {
     z-index: 1;
     transition: 0.5s;
     width: 42px;
-    right: 50px;
+    right: 30px;
     top: 5%;
 }
 

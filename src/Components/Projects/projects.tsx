@@ -85,14 +85,15 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                 <div className="projectInfoWrapper">
                                     <div className="projectInfo">
                                         <h2 className="projectName">
-                                            SOUNDSOUND.NET
+                                            SOUNDSOUND
                                         </h2>
                                         <p>
-                                            Lorem ipsum dolor sit amet,
-                                            consetetur sadipscing elitr, sed
-                                            diam nonumy eirmod tempor invidunt
-                                            ut labore et dolore magna aliquyam
-                                            erat, sed diam voluptua.
+                                            Fully responsive React App for an
+                                            Event Agency is using Contentful as
+                                            CMS. With its API, content can be
+                                            easily manages via a very friendly
+                                            user interface. Check out the
+                                            deployed project here.
                                         </p>
                                     </div>
                                     <div className="techStack">
@@ -133,10 +134,13 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                 <div className="projectInfo">
                                     <h2 className="projectName">ZONE</h2>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consetetur
-                                        sadipscing elitr, sed diam nonumy eirmod
-                                        tempor invidunt ut labore et dolore
-                                        magna aliquyam erat, sed diam voluptua.
+                                        A Chrome Extension which will help you
+                                        focus on stuff that matters. Calm
+                                        background noises running in the
+                                        background and a simple Todo-List will
+                                        guide you through your productive day!
+                                        Using Local Storage, the app makes sure
+                                        none of your to-dos get lost. 
                                     </p>
                                 </div>
                                 <div className="techStack">
@@ -172,10 +176,9 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                 <div className="projectInfo">
                                     <h2 className="projectName">Image Board</h2>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consetetur
-                                        sadipscing elitr, sed diam nonumy eirmod
-                                        tempor invidunt ut labore et dolore
-                                        magna aliquyam erat, sed diam voluptua.
+                                        This Instagram Like Vue Application lets
+                                        you upload images via AWS and storing
+                                        all data in a PostgressSQL Database.
                                     </p>
                                 </div>
                                 <div className="techStack">
@@ -214,10 +217,14 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                         Social Network
                                     </h2>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consetetur
-                                        sadipscing elitr, sed diam nonumy eirmod
-                                        tempor invidunt ut labore et dolore
-                                        magna aliquyam erat, sed diam voluptua.
+                                        This React Application using Redux has
+                                        everything you would expect from a
+                                        social network. All Data gets stored in
+                                        a SQL Database which gives users the
+                                        opportunity to login, accept friend
+                                        requests, comment on the Post Wall send
+                                        instant messages in a group chat using
+                                        Socket.io and much more. 
                                     </p>
                                 </div>
                                 <div className="techStack">
@@ -256,10 +263,11 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                 <div className="projectInfo">
                                     <h2 className="projectName">CONNECT 4</h2>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consetetur
-                                        sadipscing elitr, sed diam nonumy eirmod
-                                        tempor invidunt ut labore et dolore
-                                        magna aliquyam erat, sed diam voluptua.
+                                        A simple “Connect 4” game for 2 Player
+                                        written in Vanilla JS, with some fun
+                                        features like a changing background
+                                        color and Mexican Music playing on the
+                                        background on demand. 
                                     </p>
                                 </div>
                                 <div className="techStack">
