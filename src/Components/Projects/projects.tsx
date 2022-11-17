@@ -85,7 +85,9 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                 <div className="projectInfoWrapper">
                                     <div className="projectInfo">
                                         <h2 className="projectName">
-                                            SOUNDSOUND
+                                            <a href="https://www.soundsound.net/">
+                                                SOUNDSOUND
+                                            </a>
                                         </h2>
                                         <p>
                                             Fully responsive React App for an
@@ -93,7 +95,11 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                             CMS. With its API, content can be
                                             easily manages via a very friendly
                                             user interface. Check out the
-                                            deployed project here.
+                                            deployed project
+                                            <a href="https://www.soundsound.net/">
+                                                here
+                                            </a>
+                                            .
                                         </p>
                                     </div>
                                     <div className="techStack">
