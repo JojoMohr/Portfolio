@@ -50,9 +50,13 @@
     left: 50%;
     transform: translateX(-50%);
     height: 1px;
-    width: 90%;
+    /* width: 90%; */
     /* border: 2px solid white; */
     background-color: white;
+}
+
+#aboutText {
+    padding-top: 15px;
 }
 /*  ======= ICONS ================ */
 .skillIconWrapper {

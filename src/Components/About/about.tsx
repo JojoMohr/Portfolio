@@ -31,7 +31,7 @@ export default function About({ closePopup }: any) {
                 <div className="aboutWrapper">
                     <h1>ABOUT ME</h1>
                     <div id="trenner"></div>
-                    <p>
+                    <p id="aboutText">
                         Frontend enthusiast and passionate about web
                         development. React Fan and eager to learn new
                         technologies. Below you can find a summary of all the
