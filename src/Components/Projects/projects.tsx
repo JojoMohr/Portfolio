@@ -85,9 +85,9 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                 <div className="projectInfoWrapper">
                                     <div className="projectInfo">
                                         <h2 className="projectName">
-                                            <a href="https://www.soundsound.net/">
-                                                SOUNDSOUND
-                                            </a>
+                                            {/* <a href="https://www.soundsound.net/"> */}
+                                            SOUNDSOUND
+                                            {/* </a> */}
                                         </h2>
                                         <p>
                                             Fully responsive React App for an

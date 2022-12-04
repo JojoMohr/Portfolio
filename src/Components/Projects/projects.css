@@ -63,6 +63,7 @@
     overflow: scroll;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    box-shadow: -2px 1px 24px 2px rgba(255, 255, 255, 0.25);
 }
 .projectContainer {
     display: flex;
@@ -106,6 +107,7 @@
 .projectContainer img {
 }
 /* INFO */
+
 .projectInfoWrapper {
     /* max-width: 100%; */
     display: flex;

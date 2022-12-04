@@ -245,23 +245,34 @@ export default function Hero() {
             <div id="header">
                 <div className="infoName" data-aos="fade-left">
                     <h1>Johannes Mohr</h1>
-                    <h3>frontendDevelopment</h3>
+                    <h3>Web Development</h3>
                 </div>
                 {/*  ******************** SOCIALS *********************/}
                 <div className="socials">
-                    <img
-                        className="socialIcon"
-                        id="githubIcon"
-                        src="img/github.png"
-                        alt="Github Icon"
-                    ></img>
-
-                    <img
-                        className="socialIcon"
-                        id="linkedinIcon"
-                        src="img/linkedin.png"
-                        alt="Linkedin"
-                    ></img>
+                    <a
+                        href="https://github.com/JojoMohr/zone"
+                        target={"_blank"}
+                        rel="noreferrer"
+                    >
+                        <img
+                            className="socialIcon"
+                            id="githubIcon"
+                            src="img/github.png"
+                            alt="Github Icon"
+                        ></img>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/johannes-mohr-013463184/"
+                        target={"_blank"}
+                        rel="noreferrer"
+                    >
+                        <img
+                            className="socialIcon"
+                            id="linkedinIcon"
+                            src="img/linkedin.png"
+                            alt="Linkedin"
+                        ></img>
+                    </a>
                 </div>
             </div>
             {/************************ POPUP  ***********************/}

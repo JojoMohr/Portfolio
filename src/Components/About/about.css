@@ -19,6 +19,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     overflow: scroll;
+    box-shadow: -2px 1px 24px 2px rgba(255, 255, 255, 0.25);
 }
 
 .aboutWrapper {
