@@ -3,6 +3,7 @@ import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Hero from "./Components/Hero/hero";
+import { Toaster } from "react-hot-toast";
 
 //========================================
 AOS.init({
@@ -28,6 +29,10 @@ AOS.init({
 function App() {
     return (
         <div className="pageWrapper">
+            <div>
+                <Toaster></Toaster>
+            </div>
+
             <div className="mainPage">
                 <Hero></Hero>
             </div>

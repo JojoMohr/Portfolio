@@ -32,15 +32,25 @@ export default function About({ closePopup }: any) {
                     <h1>ABOUT ME</h1>
                     <div id="trenner"></div>
                     <p id="aboutText">
-                        Frontend enthusiast and passionate about web
-                        development. React Fan and eager to learn new
-                        technologies. Below you can find a summary of all the
-                        technologies I have worked so far. I am constantly
-                        working on making that list longer.
+                        Here's a possible new text for your About Me section: As
+                        a frontend developer, I am dedicated to crafting
+                        engaging and responsive user interfaces that make the
+                        web a more enjoyable place to be. With a passion for web
+                        development and a love for React, I am constantly
+                        seeking to learn and explore new technologies to improve
+                        my skills and build better user experiences. Throughout
+                        my career, I have gained hands-on experience working
+                        with a variety of technologies, including HTML, CSS,
+                        JavaScript, React, Vue, Angular, and more. I am always
+                        eager to take on new challenges and expand my skillset,
+                        and I approach each project with a curious and creative
+                        mindset. If you're looking for a skilled and
+                        enthusiastic frontend developer to help bring your
+                        project to life, please don't hesitate to get in touch.
                         <br></br>
-                        Any Idea you might want to put to life? Just hit me up
-                        via the contact form on the planet to the right and I
-                        will get right back to you 🪐
+                        You can use the contact form on the planet to the right,
+                        and I will be happy to chat with you about your needs
+                        and goals. Let's create something amazing together! 🚀.
                     </p>
                 </div>
                 <div className="skillsWrapper">

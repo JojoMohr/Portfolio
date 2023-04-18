@@ -59,6 +59,9 @@
 #aboutText {
     padding-top: 15px;
     width: 80%;
+    text-align: inherit;
+    line-break: auto;
+    line-height: 24px;
 }
 /*  ======= ICONS ================ */
 .skillIconWrapper {

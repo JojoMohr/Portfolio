@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import toast, { Toaster } from "react-hot-toast";
 // const keys = require("../../secrets.json");
 require("dotenv").config();
 
@@ -17,17 +18,23 @@ export default function Contact({ closePopup }: any) {
             (result: { text: any }) => {
                 console.log(result.text);
                 e.target.reset();
-                alert("MESSAGE SENT");
+                // toast.success("Message Sent");
+                toast("Message Sent", {
+                    icon: "🚀",
+                });
+                // alert("MESSAGE SENT");
             },
             (error: { text: any }) => {
                 console.log(error.text);
+                toast.error("Error sending Mail");
 
-                alert("MESSAGE FAILED TO SENT");
+                // alert("MESSAGE FAILED TO SENT");
             }
         );
     };
     return (
         <div className="contactWrapper">
+            {/* <Toaster></Toaster> */}
             <img
                 onClick={closePopup}
                 id="closeProjects"
@@ -38,13 +45,13 @@ export default function Contact({ closePopup }: any) {
             {/* <div id="trenner"></div> */}
             <form className="contactForm" ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
-                <input type="text" name="from_name" />
+                <input required type="name" name="from_name" />
                 {/* <label>Subject</label>
                 <input type="text" name="subject" /> */}
                 <label>Email</label>
-                <input type="email" name="user_email" />
+                <input required type="email" name="user_email" />
                 <label>Message</label>
-                <textarea name="message" />
+                <textarea required name="message" />
                 <input id="sendButton" type="submit" value="LIFT OF" />
             </form>
         </div>
