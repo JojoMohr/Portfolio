@@ -32,8 +32,7 @@ export default function About({ closePopup }: any) {
                     <h1>ABOUT ME</h1>
                     <div id="trenner"></div>
                     <p id="aboutText">
-                        Here's a possible new text for your About Me section: As
-                        a frontend developer, I am dedicated to crafting
+                        As a frontend developer, I am dedicated to crafting
                         engaging and responsive user interfaces that make the
                         web a more enjoyable place to be. With a passion for web
                         development and a love for React, I am constantly
