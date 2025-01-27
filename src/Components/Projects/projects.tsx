@@ -61,6 +61,53 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                         {/* ===== SOSO ====== */}
                         <div
                             data-aos="fade-right"
+                            id="cliro"
+                            className="projectContainer"
+                        >
+                            {/* <div className="githubProjectWrapper"> */}
+
+                            {/* </div> */}
+
+                            <div className="assetsWrapper">
+                                <div className="projectVideoWrapper">
+                                    <img src="img/cliro.png" alt="SOSO"></img>
+                                </div>
+                                <div className="projectInfoWrapper">
+                                    <div className="projectInfo">
+                                        <h2 className="projectName">
+                                            {/* <a href="https://www.soundsound.net/"> */}
+                                            Cliro: Calm Sounds & Breathing
+                                            {/* </a> */}
+                                        </h2>
+                                        <p>
+                                            IOS & Androit Application Cliro is
+                                            your free personal oasis of
+                                            relaxation, Cliro is designed to
+                                            help you calm your mind with gentle
+                                            sounds, boxed-breathing, and
+                                            organize your thoughts. Developed
+                                            with Expo GO. Free to download{" "}
+                                            <a href="https://tectandem.com/">
+                                                here
+                                            </a>
+                                            .
+                                        </p>
+                                    </div>
+                                    <div className="techStack">
+                                        {/* <h3>TECH STACK</h3> */}
+                                        <ReactIcon></ReactIcon>
+                                        <GitIcon></GitIcon>
+                                        <NodejsIcon></NodejsIcon>
+                                        <JavaScriptIcon></JavaScriptIcon>
+                                        <HtmlIcon></HtmlIcon>
+                                        <CssIcon></CssIcon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* ===== SOSO ====== */}
+                        <div
+                            data-aos="fade-right"
                             id="soundsound"
                             className="projectContainer"
                         >
@@ -116,8 +163,8 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                 </div>
                             </div>
                         </div>
-                        {/* ===== ZOME ====== */}
-                        <div
+                        {/* ===== ZONE ====== */}
+                        {/* <div
                             data-aos="fade-right"
                             id="zoneWrapper"
                             className="projectContainer"
@@ -150,14 +197,13 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                     </p>
                                 </div>
                                 <div className="techStack">
-                                    {/* <h3>TECH STACK</h3> */}
                                     <JavaScriptIcon></JavaScriptIcon>
                                     <HtmlIcon></HtmlIcon>
                                     <CssIcon></CssIcon>
                                     <LocalStorageIcon></LocalStorageIcon>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* ===== IMAGEBOARD ====== */}
                         <div
                             data-aos="fade-right"
@@ -198,7 +244,7 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                             </div>
                         </div>
                         {/* ===== SOCIAL NETWORK ====== */}
-                        <div
+                        {/* <div
                             data-aos="fade-right"
                             id="imageBoard"
                             className="projectContainer"
@@ -244,7 +290,7 @@ export default function Projects({ closePopup, clickOnProjects }: any) {
                                     <CssIcon></CssIcon>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* ===== CONNECT 4====== */}
                         <div
                             data-aos="fade-right"

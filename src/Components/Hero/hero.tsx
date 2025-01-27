@@ -310,7 +310,7 @@ export default function Hero() {
                     </h2>
                 </div>
                 {/*  *********************RESUME********************/}
-                <div id="resumePlanetWrapper" className="iconWrapper">
+                {/* <div id="resumePlanetWrapper" className="iconWrapper">
                     <img
                         onClick={clickOnResume}
                         className="planetIcon"
@@ -321,7 +321,7 @@ export default function Hero() {
                     <h2 className="heading" id="resumeHeading">
                         RESUME
                     </h2>
-                </div>
+                </div> */}
                 {/*  ********************SKILLS*********************/}
                 <div id="skillsPlanetWrapper" className="iconWrapper">
                     <img

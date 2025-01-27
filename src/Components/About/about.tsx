@@ -17,6 +17,7 @@ import SocketioIcon from "../TechStackIcons/socketioIcon";
 import TypescriptIcon from "../TechStackIcons/typescriptIcon";
 import VueIcon from "../TechStackIcons/vueIcon";
 import "./about.css";
+import NextJsIcon from "../TechStackIcons/nextjs";
 
 export default function About({ closePopup }: any) {
     return (
@@ -32,24 +33,23 @@ export default function About({ closePopup }: any) {
                     <h1>ABOUT ME</h1>
                     <div id="trenner"></div>
                     <p id="aboutText">
-                        As a frontend developer, I am dedicated to crafting
-                        engaging and responsive user interfaces that make the
-                        web a more enjoyable place to be. With a passion for web
-                        development and a love for React, I am constantly
-                        seeking to learn and explore new technologies to improve
-                        my skills and build better user experiences. Throughout
-                        my career, I have gained hands-on experience working
-                        with a variety of technologies, including HTML, CSS,
-                        JavaScript, React, Vue, Angular, and more. I am always
-                        eager to take on new challenges and expand my skillset,
-                        and I approach each project with a curious and creative
-                        mindset. If you're looking for a skilled and
-                        enthusiastic frontend developer to help bring your
-                        project to life, please don't hesitate to get in touch.
+                        As a passionate frontend developer, I specialize in
+                        creating intuitive, responsive, and visually engaging
+                        user interfaces that elevate the web experience. I have
+                        a strong affinity for React and a drive to continuously
+                        expand my expertise in modern web technologies. My
+                        hands-on experience spans a diverse range of tools and
+                        frameworks, including HTML, CSS, JavaScript, React, Vue,
+                        and Angular, allowing me to build seamless and
+                        innovative user experiences. I'm always eager to embrace
+                        new challenges and approaches, tackling each project
+                        with curiosity and creativity. Whether you're seeking a
+                        developer to enhance your product or bring your vision
+                        to life, I'd love to collaborate.
                         <br></br>
-                        You can use the contact form on the planet to the right,
-                        and I will be happy to chat with you about your needs
-                        and goals. Let's create something amazing together! 🚀.
+                        Feel free to reach out through the contact form on the
+                        planet to the right! Let's work together to create
+                        something exceptional! 🚀
                     </p>
                 </div>
                 <div className="skillsWrapper">
@@ -61,6 +61,7 @@ export default function About({ closePopup }: any) {
                         // data-aos-easing="ease-in-sine"
                         className="skillIconWrapper"
                     >
+                        <NextJsIcon></NextJsIcon>
                         <ReactIcon></ReactIcon>
                         <JavaScriptIcon></JavaScriptIcon>
                         <TypescriptIcon></TypescriptIcon>
@@ -74,7 +75,6 @@ export default function About({ closePopup }: any) {
                         <PostgresIcon></PostgresIcon>
                         <LocalStorageIcon></LocalStorageIcon>
                         <ReduxIcon></ReduxIcon>
-                        <VueIcon></VueIcon>
                         <SocketioIcon></SocketioIcon>
                         <NetlifyIcon></NetlifyIcon>
                         <ContentfulIcon></ContentfulIcon>
